@@ -1,0 +1,1384 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/EULegalDefinitionOfWaterIntendedForHumanConsumption"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/EULegalDefinitionOfWaterIntendedForHumanConsumption">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="dc" IRI="http://purl.org/dc/elements/1.1/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Import>http://www.semanticweb.org/WFENexusTopClasses</Import>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
+        <Literal datatypeIRI="&rdfs;Literal">Mizanur Rahman</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="dc:description"/>
+        <Literal datatypeIRI="&rdfs;Literal">In 1996, the “Rome Declaration on World Food Security and World Food Summit Plan of Action” by FAO declared the access to adequate food is a human right where water for human consumption is considered as food too. Following that declaration, since the beginning of 21st century, policy debate on food vs. fuel has raised public demonstration throughout the world, particularly in Brazil, US and Europe due to the dilemma regarding farmland use changes by rising biofuel production which reinforce negatively the food supply. That worldwide concern regarding Water-Energy-Food nexus has led controversy within the existing international and regional legal systems such as policy harmonization debates between EU and her member states regarding water, food and energy domains even though food as a sub-domain of common agricultural policy was predominately a common concern at the EU level since its origin. Concurrently, in 2010, UN Resolution 64/292 explicitly recognized human right to clean drinking water and German Federal Government initiated, for the first time as such, an on-line resource platform for Water-Energy-Food Security nexus funded by EU and in partnership with World Economic Forum, WEF and IFPRI. Subsequently Bonn Conference 2011 on ‘The water Energy Food Security Nexus – Solutions for the Green Economy’ recognized the nexus perspective and provided the guiding principles for the nexus which drawn outstanding policy discourse in the UN Conference on Sustainable Development held in Rio 2012. Consecutively, in 2012, US National Intelligence Council published their report on ‘Global Trends 2030: Alternative Worlds’, where the nexus is declared as the fourth out of five most emerging global trends. Since then, subsequently, many governments like US, Germany, Brazil etc. as well as regional and international organizations like EU, UNWater and OECD have started policy discourse on how to recognize nexus and manage nexus resources using innovation and technology while there is no legal definition of such nexus. Very recently, on 25 September 2015, UN Resolution 70/1 on ‘Transforming Our World: the 2030 Agenda for Sustainable Development’ declared 17 sustainable development goals where goal 2, 6, and 7 deals with food, water and energy security respectively. In addition, paragraph 16 of the said Resolution explicitly specified the need to bridge digital divide and to develop knowledge society using ICT as a means. This utterance of the said UN Resolution is coherent with the EU Decision 456/2005/EC which clearly emphasised to make digital content in Europe more accessible, usable and exploitable. However, in the case of nexus, following major problems are not in favour of implementing mentioned UN Resolution and EU Decision - 
+ 
+-	First of all the nexus domains are isolated and managed by segregated institutional settlement. For example, European Food Safely Authority is established by EU Regulation 178/2002 in order to only deal with common food issues in EU level, but not with water or energy issues. Therefore digital content of such authority is not shared with digital content of other counter parts like water or energy related institutions, vice versa. 
+
+-	Secondly, there are a number of legal information databases related with nexus domains such as FAO-Lex, ECO-Lex, Eur-Lex, WISH, Food in open data, and legislative.gov.uk but these data-bases are not inter-connected as well as their information is not inter-operable and semantically searchable.   
+
+-	Thirdly, there is a number of water and food related ontologies such as AGROVOC. SESAME-S, CUAHSI, SSN, SWEET, Towntology and hydrology, but they do not represent legal definition neither of water nor food nor ontological connection among nexus domains.
+
+These mentioned problems in nexus domains create knowledge gaps in the nexus. For example, there is a lack of nexus detection mechanisms, lack of cross-compliance check among rules that affects and reinforces nexus domains and some of those rules are mutually exclusive in the nexus context. In order to minimize these problems and knowledge gaps in nexus, this legal ontology for nexus is build, which is in line with the EU Council’s conclusions inviting the introduction of the European Legislation Identifier (ELI) (2012/C 325/02). Considering the above contexts, the legal ontology for nexus is intended to provide following benefits – 
+
+a)	It provides a legal definitional understanding for nexus that is machine processable and a formal specification of a shared understanding for nexus based on legal concepts those are laid down in the EU regulations.     
+
+b)	It can be used as a basis to promote interchange and enhance interoperability between legal information systems related with nexus domains. 
+
+c)	It can be reused by the Member States of EU for their own needs. That might decrease the total cost of developing nexus related legal information system. 
+
+d)	It can be used to support case-based comparisons and testing different hypothesis of nexus. 
+
+e)	In addition, the methodology of it can be applied to model legal ontology for other domains as well as jurisdictions.
+
+The legal ontology for nexus is a merged ontology with following ontologies - WEFNexusTopClasses ontolgy, EUDefWater Ontology, EUDefBiofuels Ontology and EUDefFood Ontology. The WEFTopClasses Ontology is imported and reused in following ontologies - EUDefWater Ontology, EUDefBiofuels Ontology and EUDefFood Ontology.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <Literal datatypeIRI="&rdfs;Literal">This is legal ontology of EU definition &apos;water intended for human consumption&apos;. Here all entities are taken from the legislative texts of Article 2 of EU Directive 98/83/EC. However, the normative definitions of all entities are extracted from popular literatures, e.g. law and general dictionaries, case laws, other legislative documents as well as research based literatures. WEFTopClasses ontolgoy has been imported here.</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/title"/>
+        <Literal datatypeIRI="&rdfs;Literal">EUDefWater Ontology</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/date"/>
+        <Literal datatypeIRI="&rdfs;Literal">12 December 2015</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
+        <Literal datatypeIRI="&rdfs;Literal">Prof Monica Palmirani (supervision) and LAST-JD Program (finance)</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="owl:versionInfo"/>
+        <Literal datatypeIRI="&rdfs;Literal">This ontology is a piece of doctoral research work initiated from the LAST-JD program, Joint International Doctoral (Ph.D.) Degree in Law, Science and Technology, coordinated by CIRSFID, University of Bologna.
+
+Please, for more, see at http://www.last-jd.eu/</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/language"/>
+        <Literal datatypeIRI="&rdfs;Literal">English</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <Literal datatypeIRI="&rdfs;Literal">EUDefWater Ontology</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/publisher"/>
+        <Literal datatypeIRI="&rdfs;Literal">Prof Monica Palmirani</Literal>
+    </Annotation>
+    <Annotation>
+        <AnnotationProperty IRI="http://purl.org/dc/terms/rights"/>
+        <Literal datatypeIRI="&rdfs;Literal">This ontology is distributed under a Creative Commons Attribution License - http://creativecommons.org/licenses/by/3.0</Literal>
+    </Annotation>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#CompetentNationalAuthoritiesInWaterDomain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#CookingActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#DistributionOfWater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#DomesticPurpose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Drinking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodPreparation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProduct"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProductWhereWaterIsUsed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProductionActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodSubstance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FromDistributionNetwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FromTanker"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#HumanConsumption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#HumanConsumptionActivity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#InBottle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#InContainer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#ManufactureOfFoodProduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#MarketingOfFoodProduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#PreservationOfFoodProduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#ProcessingOfFoodProduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#QualityOfWater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WasteWater"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterAfterCompliance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterAfterTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterBeforeTreatment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterInItsOriginalState"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterSubstance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterSubstanceInFood"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WholesomenessOfFoodstuff"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#consumes"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isConsumedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isCoordinatedBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isIntendedFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isSuppliedFrom"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isUsedIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallBeUsedFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallHave"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotAffect"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotBeUsedFor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotHave"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#CompetentNationalAuthoritiesInWaterDomain"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Authority"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#CookingActivity"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#HumanConsumptionActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#DistributionOfWater"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Activity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#DomesticPurpose"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#HumanConsumptionActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Drinking"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#HumanConsumptionActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodPreparation"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#HumanConsumptionActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProduct"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Product"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProduct"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isConsumedBy"/>
+            <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Human"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProductWhereWaterIsUsed"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProductWhereWaterIsUsed"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProductionActivity"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#ProductionActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodSubstance"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProduct"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodSubstance"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Substance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FromDistributionNetwork"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#DistributionOfWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FromTanker"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#DistributionOfWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Human"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#consumes"/>
+            <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#HumanConsumption"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#ConsumptionActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#HumanConsumptionActivity"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#ConsumptionActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#InBottle"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#DistributionOfWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#InContainer"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#DistributionOfWater"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#ManufactureOfFoodProduction"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProductionActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#MarketingOfFoodProduction"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProductionActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#PreservationOfFoodProduction"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProductionActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#ProcessingOfFoodProduction"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProductionActivity"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#QualityOfWater"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Quality"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#QualityOfWater"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotAffect"/>
+            <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WholesomenessOfFoodstuff"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WasteWater"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WasteWater"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotBeUsedFor"/>
+            <ObjectIntersectionOf>
+                <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#ConsumptionActivity"/>
+                <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProductionActivity"/>
+            </ObjectIntersectionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Water"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Substance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterAfterCompliance"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterAfterCompliance"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterAfterTreatment"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterAfterCompliance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterBeforeTreatment"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterInItsOriginalState"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterAfterCompliance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#ConstitutiveRule"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isIntendedFor"/>
+                <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#HumanConsumptionActivity"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isSuppliedFrom"/>
+                <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#DistributionOfWater"/>
+            </ObjectSomeValuesFrom>
+            <ObjectAllValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isCoordinatedBy"/>
+                <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#CompetentNationalAuthoritiesInWaterDomain"/>
+            </ObjectAllValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallBeUsedFor"/>
+                <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProductionActivity"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallHave"/>
+                <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#QualityOfWater"/>
+            </ObjectSomeValuesFrom>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotHave"/>
+                <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WasteWater"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isUsedIn"/>
+            <ObjectUnionOf>
+                <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProduct"/>
+                <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProductionActivity"/>
+            </ObjectUnionOf>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterSubstance"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Water"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterSubstanceInFood"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterSubstanceInFood"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterSubstance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WholesomenessOfFoodstuff"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Quality"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FromDistributionNetwork"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FromTanker"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FromDistributionNetwork"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#InBottle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FromDistributionNetwork"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#InContainer"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FromTanker"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#InBottle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FromTanker"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#InContainer"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#InBottle"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#InContainer"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterAfterTreatment"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterBeforeTreatment"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isSuppliedFrom"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isCoordinatedBy"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isUsedIn"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isCoordinatedBy"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallBeUsedFor"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotBeUsedFor"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#consumes"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isConsumedBy"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isCoordinatedBy"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isIntendedFor"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isSuppliedFrom"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isUsedIn"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallBeUsedFor"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallHave"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotAffect"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotBeUsedFor"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotHave"/>
+    </FunctionalObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#consumes"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isCoordinatedBy"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isIntendedFor"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isSuppliedFrom"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isUsedIn"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallBeUsedFor"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallHave"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotAffect"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotBeUsedFor"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotHave"/>
+    </AsymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#consumes"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Human"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isConsumedBy"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProduct"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isCoordinatedBy"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isIntendedFor"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isSuppliedFrom"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isUsedIn"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallBeUsedFor"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallHave"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotAffect"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#QualityOfWater"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotBeUsedFor"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WasteWater"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotHave"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#consumes"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isConsumedBy"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Human"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isCoordinatedBy"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#CompetentNationalAuthoritiesInWaterDomain"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isIntendedFor"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#HumanConsumptionActivity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isSuppliedFrom"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#DistributionOfWater"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isUsedIn"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProduct"/>
+            <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProductionActivity"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallBeUsedFor"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProductionActivity"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallHave"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#QualityOfWater"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotAffect"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WholesomenessOfFoodstuff"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotBeUsedFor"/>
+        <ObjectUnionOf>
+            <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#ConsumptionActivity"/>
+            <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProductionActivity"/>
+        </ObjectUnionOf>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotHave"/>
+        <Class IRI="http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WasteWater"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#CompetentNationalAuthoritiesInWaterDomain</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">UN defines national competent authorities are empowered to enforce as well as to regulate national controls of certain domains through their procedural laws within their jurisdiction . This is only sub-class of the top-class ‘Authority’. In EU system, Article 2(19) of Regulation (EC) no 1946/2003 , mentions that &quot;competent authority&quot; means a competent authority designated by a Party to the Protocol, or the relevant equivalent body of a non-Party, which is responsible for performing the administrative functions required by the Protocol, or equivalent functions in the case of a non-Party, and is authorised to act on its behalf with respect to those functions”. However, Article 2 (1) of EU Directive 98/83/EC says that competent national authority of water domains will check the quality of water and water’s affect in the wholesomeness of foodstuffs as mentioned in the respective legislations.
+
+For examples, UNODC (United Nations Office on Druges and Crime) provides lists of the competent national authorities empowered to issue certificates and authorizations for the import and export of narcotic drugs and psychotropic substances, and to regulate or enforce national controls over precursors and essential chemicals. The legal bases for designating these authorities are the Single Convention on Narcotic Drugs of 1961 (article 18), the Convention on Psychotropic Substances of 1971 (article 16), and the United Nations Convention against Illicit Traffic in Narcotic Drugs and Psychotropic Substances of 1988 (article 12).
+
+seeAlso - http://www.unodc.org/unodc/en/legal-tools/directories-of-competent-national-authorities.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#CompetentNationalAuthoritiesInWaterDomain</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">CompetentNationalAuthoritiesInWaterDomain</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#CompetentNationalAuthoritiesInWaterDomain</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://www.unodc.org/unodc/en/legal-tools/directories-of-competent-national-authorities.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#CookingActivity</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">EU Directive 98/83/EC did not fine the term ‘Cooking’, but just mentioned it as a type of ‘HumanConsumptionActivity’. However, Oxford dictionary defines it as an human consumption activity for preparing food by combing, heating and/or mixing ingredients where water is very likely to be used. In addition, Annex of EU Regulation No 451/2008  mentioned that a list of products used for cooking and legally addressed cooking as an activity.
+
+seeAlso - http://www.oxforddictionaries.com/definition/english/cooking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#CookingActivity</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Cooking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#CookingActivity</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://www.oxforddictionaries.com/definition/english/cooking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#DistributionOfWater</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">EPA  defines that “water distribution system is based on a set of collective activities distributing water to the targeted locations. It consists of an interconnected series of pipes, storage facilities, and components that convey drinking water and meeting fire protection and domestic needs for cities, homes, schools, hospitals, businesses, industries and other facilities”. However, Article 2 (2) of EU Directive 98/83/EC  defines ‘domestic distribution system’ as a part of ‘DistributionOfWater’ that intended for only human consumption. In addition, Article 2(1) of the same legislation defines that ‘DistributionOfWater’ can be from four different ways – a) from distribution network, b) from tanker, c) in bottle, and d) in container. Therefore, these four entities are used as sub-classes of the entity ‘DistributionOfWater’.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#DistributionOfWater</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">DistributionOfWater</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#DistributionOfWater</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#DistributionOfWater</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://water.epa.gov/lawsregs/rulesregs/sdwa/tcr/distributionsystems.cfm</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#DomesticPurpose</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Article 2 (1) of EU Directive 98/83/EC mentions that ‘DomesticPurpose’ is a type of ‘HumanConsumptionActivity’ where water with regulative quality must be used as it is directed in the same legislation. Few examples of such activity can be washing clothes, bathing etc.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#DomesticPurpose</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">DomesticActivity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#DomesticPurpose</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Drinking</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Oxford dictionary defines it as human consumption activity that deals with taking liquid into the mouth and swallows.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Drinking</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Drinking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Drinking</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Drinking</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://www.oxforddictionaries.com/definition/english/drink?q=Drinking</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodPreparation</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Wikipedia  mentions it as a type of human consumption activity that prepares food for eating, which is not limited to cooking rather it requires to perform a certain type of activities such as selection, measurements and combinations of various food ingredients in order to acquire desired results.
+
+seeAlso - https://en.wikipedia.org/wiki/Outline_of_food_preparation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodPreparation</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">FoodPreparation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodPreparation</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">https://en.wikipedia.org/wiki/Outline_of_food_preparation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProduct</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">USLegal  defines when food is ready for sale is considered as food product. ‘FoodProduct’ is a subclass of top-class ‘Product’. Even though, the definition of the term ‘FoodProduct’ does not make clear of its relationship with the terms like ‘Water’, ‘WasteWater’, ‘WaterIntendedForHumanConsumption’ etc. However, in according to the Article 2 (1) of EU Directive 98/83/EC, food product is a type of product where water is likely to be used.
+
+seeAlso - http://definitions.uslegal.com/f/food-product/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProduct</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">FoodProduct</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProduct</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://definitions.uslegal.com/f/food-product/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProductWhereWaterIsUsed</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">&apos;Food product where water is used&apos; is a kind of &apos;food product&apos;.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProductWhereWaterIsUsed</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">FoodProductWhereWaterIsUsed</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProductWhereWaterIsUsed</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProductionActivity</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">This is a sub-class of the top-class ‘ProductionActivity’. In according to the Article 2 (1) of EU Directive 98/83/EC, ‘FoodProductionActivity’ is a type of ‘Activity’ where water is used, which must maintain certain level of water quality equivalent to ‘water intended for human consumption’. CDC   defines ‘FoodProductionActivity ’ that is consisted with a series of activities for transforming raw materials into finished food products.
+
+seeAlso - http://www.cdc.gov/foodsafety/outbreaks/investigating-outbreaks/production-chain.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProductionActivity</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">FoodProductionActivity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProductionActivity</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://blogs.cdc.gov/global/tag/food-production/</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodProductionActivity</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://www.cdc.gov/foodsafety/outbreaks/investigating-outbreaks/production-chain.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodSubstance</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Article 2 (1) of EU Directive 98/83/EC mentions that, on one hand, food product where water is used must not affect the wholesomeness of food. On the other hand, water that is used in food must maintain the quality as prescribed in the EU Directives and equivalent to ‘water intended for human consumption’. In addition, Regulation (EC) no 1925/2006  indicated that ‘FoodSubstance’ itself can be considered as ‘FoodProduct’ such as vitamin and/or some raw food materials. It is noteworthy to mention that &apos;Food substance&apos; itself can be a type of &apos;food product&apos;.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447874692361&amp;uri=CELEX:32006R1925</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodSubstance</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">FoodSubstance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodSubstance</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FoodSubstance</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447874692361&amp;uri=CELEX:32006R1925</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FromDistributionNetwork</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">EU Directive 2000/60/EC  defines that water distributed from the water distribution network is a water service activity. More precisely, the business dictionary defines it as a chain of distribution activities from the suppliers to the consumer using competing water distribution system. However, the term ‘FromDistributionNetwork’ is disjointed with following terms – ‘FromTanker’, ‘InContainer’, and ‘InBottle’.
+
+seeAlso - http://www.businessdictionary.com/definition/distribution-network.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FromDistributionNetwork</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">FromDistributionNetwork</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FromDistributionNetwork</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://www.businessdictionary.com/definition/distribution-network.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FromTanker</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">The dictionary  defines it as “a ship, lorry, or aeroplane designed to carry liquid in bulk, such as water, for the purpose of distributing water.”
+
+seeAlso - http://dictionary.reference.com/browse/tanker</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FromTanker</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">FromTanker</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#FromTanker</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://dictionary.reference.com/browse/tanker</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#HumanConsumption</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">EU Directive 98/83/EC defines the water that is intended for human consumption without defining the concept ‘HumanConsumption’. Oxford dictionary, however, defines it as “the activity of eating, drinking, or ingesting of something and performed by human being”. European encyclopedia of law mentions that there are a number of EU legislations  describing food product for human consumption where the term ‘Water’ is used as a food.
+
+In India, Section 2(1) (f) of the Prevention of Food Adulteration Act, 1954 Provides that an article of food shall be deemed to be adulterated if the article consists wholly or in part of any filthy, putrid, disgusting, rotten, decomposed or diseased animal or vegetable substance or is insect-infested or is otherwise unfit for human consumption.
+
+Ref - 1985 AIR 741 1985 SCR (3) 464 1985 SCC (2) 589 1985 SCALE (1)539, and &quot;State (Delhi Administration) V. Puran Mal&quot; india.lawi.asia. 03, 2010. Accesed 06 2015.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#HumanConsumption</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">HumanConsumption</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#HumanConsumption</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#HumanConsumption</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://india.lawi.asia/state-delhi-administration-v-puran-mal</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#HumanConsumptionActivity</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Article 2 (1) of EU Directive 98/83/EC defines it as any activity performed for and/or in relation with human consumption. Concept types of this activity are also given in same legislation such as cooking, domestic purpose, drinking, and/or food preparation.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#HumanConsumptionActivity</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">HumanConsumptionActivity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#HumanConsumptionActivity</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#InBottle</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">In according to the Article 2 (1) of EU Directive 98/83/EC, one of the legitimate ways to distribute water is in bottle, which is generic type of the class ‘DistributionOfWater’. Nevertheless, legislation did not define the meaning of bottle. The Wikipedia defines the bottled water  as – “drinking water (e.g., well water, distilled water, mineral water, or spring water) packaged in plastic or glass water bottles. Bottled water may be carbonated or not. Sizes range from small single serving bottles to large carboys for water coolers”. The entity ‘InBottle’ is disjoint with other type of subclasses of ‘DistributionOfWater’ such as ‘FromDistributionNetwork’, ‘FromTanker’, and ‘InContainer’.
+
+seeAlso - https://en.wikipedia.org/wiki/Bottled_water</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#InBottle</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">InBottle</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#InBottle</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">https://en.wikipedia.org/wiki/Bottled_water</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#InContainer</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Article 2 (1) of EU Directive 98/83/EC says that water can be distributed in container too. The dictionary defines a container  is – “Container is a type of medium for dis-tributing water. Generally is such object used for or capable of holding, esp for transport or storage, such as a carton, box, etc”. This entity is also disjoint with ‘FromDistribtuionNetwork’, ‘FromTanker’, and ‘InBottle’.
+
+seeAlso - http://dictionary.reference.com/browse/container</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#InContainer</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">InContainer</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#InContainer</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://dictionary.reference.com/browse/container</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#ManufactureOfFoodProduction</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Article 2 (1) of EU Directive 98/83/EC implicitly mentions that ‘ManufactureOfFoodProduction’ is a type of food production activity where water, which is intended for human consumption, is used. In addition, Regulation (EC) No 178/2002   also recognized that manufacturing of the food production is involved with such type of activities that generate food production activity and business.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#ManufactureOfFoodProduction</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">ManufactureOfFoodProduction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#ManufactureOfFoodProduction</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#ManufactureOfFoodProduction</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">https://en.wikipedia.org/wiki/Food_manufacture</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#MarketingOfFoodProduction</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Regulation (EC) No 1331/2008  explicitly mentions about various marketing activities involved with food production. Lars Perner  provided a general definition of ‘MarketingOfFoodProduction’ is that it is a kind of food production activity involved with general marketing approaches and techniques. Furthermore, Article 2 (1) of EU Directive 98/83/EC also says that marketing of food production is consisted with such activities where water might be used, hence water quality must be ensured par law.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447874109805&amp;uri=CELEX:32008R1331</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#MarketingOfFoodProduction</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">MarketingOfFoodProduction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#MarketingOfFoodProduction</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://www.consumerpsychologist.com/food_marketing.html</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#MarketingOfFoodProduction</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://www.consumerpsychologist.com/intro_Introduction.html and http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447874109805&amp;uri=CELEX:32008R1331</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#PreservationOfFoodProduction</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Food preservation,as a kind of food production activity, delas with preparing food so that it can be stored for future use.
+
+seeAlso - http://encyclopedia2.thefreedictionary.com/food+preservation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#PreservationOfFoodProduction</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">PreservationOfFoodProduction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#PreservationOfFoodProduction</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://encyclopedia2.thefreedictionary.com/food+preservation</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#ProcessingOfFoodProduction</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Wikipedia defines it as a food production activity which deals with preserving and/or preparing food in such a way so that food can be stored for the future use. In according to the Article 2 (1) of EU Directive 98/83/EC, preservation of food production is a type of food production activity where water is used.
+
+seeAlso - https://en.wikipedia.org/wiki/Food_processing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#ProcessingOfFoodProduction</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">ProcessingOfFoodProduction</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#ProcessingOfFoodProduction</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">https://en.wikipedia.org/wiki/Food_processing</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#QualityOfWater</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Water quality refers to the chemical, physical, biological, and radiological characteristics of water. It is a measure of the condition of water relative to the requirements of one or more biotic species and or to any human need or purpose. It is most frequently used by reference to a set of standards against which compliance can be assessed.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#QualityOfWater</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">QualityOfWater</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#QualityOfWater</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WasteWater</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Article 2 (1) of EU Directive 98/83/EC implicitly mentioned that ‘WasteWater ’ is a type of ‘Water’ but not the ‘WaterIntendedForHumanConsumption’.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447874961421&amp;uri=CELEX:32006L0044</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WasteWater</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">WasteWater</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WasteWater</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WasteWater</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447874930831&amp;uri=CELEX:32008L0098</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WasteWater</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447874961421&amp;uri=CELEX:32006L0044</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Water</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">In according to Article 2 (1) of EU Directive 98/83/EC, ‘Water’ is a type of ‘Substance’ and Article 2 of EU Regulation 178/2002/EC, in addition, says that water can also be considered as food. Directive 2000/60/EC  also considered ‘Water’ as ‘Substance’.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447874867720&amp;uri=CELEX:32000L0060</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Water</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Water</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Water</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#Water</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447874867720&amp;uri=CELEX:32000L0060</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterAfterCompliance</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Article 2 of EU Directive 98/83/EC implicitly defines that ‘WaterAfterCompliance ’ is a kind of ‘WaterIntendedForHumanConsumption’.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447874417133&amp;uri=CELEX:32006L0007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterAfterCompliance</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">WaterAfterCompliance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterAfterCompliance</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterAfterCompliance</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447874417133&amp;uri=CELEX:32006L0007</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterAfterTreatment</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">&apos;Water after treatment&apos; is a kind of &apos;water after compliance&apos;.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterAfterTreatment</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">WaterAfterTreatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterAfterTreatment</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterBeforeTreatment</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">In according to the EU Directive 98/83/EC, this term is disjoint with ‘WaterAfterTreatment’ as this carry an opposite meaning of ‘WaterAfterTreatment’, which is not ‘WaterIntendedForHumanConsumption’ but equivalent to the ‘WasteWater’.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447875025408&amp;uri=CELEX:32000L0060</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterBeforeTreatment</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">WaterBeforeTreatment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterBeforeTreatment</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterBeforeTreatment</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447875025408&amp;uri=CELEX:32000L0060</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterInItsOriginalState</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">&apos;Water in its original state&apos; is a type of &apos;water after compliance&apos;.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterInItsOriginalState</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">WaterInItsOriginalState</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterInItsOriginalState</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterIntendedForHumanConsumption</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">This is only sub-class of the top-class ‘ConstitutiveRule’ in EUDefintionOfWaterIntendedForHumanConsumption ontology.  Because in according to Article 2 (1) of EU Directive 98/83/EC the ‘Wa-terIntendedForHumanConsumption’ has generated a number of activities those are logically dependent on the other legal rules mentioned in the same and/or other legis-lations or both. For example in order to ensure implication of the term “WaterIntendedForHumanConsumption”, a number of activities have to be performed such as – (a) its quality must be checked by the competent national authority in according to the parameters set by the respective EU Directives, (b) in order to make “WasteWater”, which is defined in Article 3 of Directive 2008/98/EC , human consumable, it must be treated and qualified as ‘WaterIntendedForHumanConsumption’ which is defined in another EU Directive, (c) it must be used in any food products that is for human consumption. These all must-do activities are also logically depended on the legal rules such as EU Directives or Regulations.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterIntendedForHumanConsumption</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">WaterIntendedForHumanConsumption</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterIntendedForHumanConsumption</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterSubstance</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">&apos;Water substance&apos; is a type of water with many usages. For example, it itself can be used as a food, as well as it can be used as a raw material in the food production.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterSubstance</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">WaterSubstance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterSubstance</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterSubstanceInFood</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">&apos;Water substances in food&apos; is also a kind of &apos;water intended for human consumption&apos; as well as it is a kind of &apos;water substance&apos; too.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterSubstanceInFood</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">WaterSubstanceInFood</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WaterSubstanceInFood</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WholesomenessOfFoodstuff</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Article 4 of EU Directive 98/83/EC describes &quot;wholesomeness of food stuff&quot; as a quality. The general obligation regarding &apos;wholesomeness of foodstuff&apos; (where water itself considered as food) is given below - 
+
+&quot; Without prejudice to their obligations under other Community provisions, Member States shall take the measures necessary to ensure that water intended for human consumption is wholesome and clean. For the purposes of the minimum requirements of this Directive, water intended for human consumption shall be wholesome and clean if it:
+
+(a) is free from any micro-organisms and parasites and from any substances which, in numbers or concentrations, constitute a potential danger to human health, and
+
+(b) meets the minimum requirements set out in Annex I,
+Parts A and B;&quot;
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WholesomenessOfFoodstuff</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">WholesomenessOfFoodstuff</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#WholesomenessOfFoodstuff</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#consumes</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">This is an object-property extracted from Article 2(1) of EU Directive 98/83/EC with functional and asymmetric characteristics. By nature it is implicit in the legislative text. Because the Article says about ‘WaterIntendedForHumanConsumption’, which has been used as a sub-class of the term ‘ConstitutiveRule’ and this needs to be linked with the term ‘Human’. That could be done in many different ways. For example, using object property ‘intendedFor’ in order to establish relationship between the terms ‘Water’ and ‘HumanConsumption’. But because of ‘WaterIn-tendedForHumanConsumption’ is used as a single term in this ontology, object-property ‘consumes’ is used for linking it with the term ‘Human’. That gives an ad-vantage of using term ‘WaterIntendedForHumanConsumption’ simultaneously as also mother-class of the following terms – ‘WaterAfterCompliance’, ‘WaterSubstanceInFood’ and ‘FoodProductWhereWaterIsUsed’. However, the term ‘WaterIntendedForHumanConsumption’ is not a sub-class of the term ‘Water’, because the ‘Water’ is a sub-class of the term ‘Substance’ whereas the term ‘WaterIntendedForHumanConsumption’ is considered as a ‘ConstitutiveRule’.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#consumes</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">consumes</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#consumes</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isConsumedBy</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">This functional object-property is used to connect the domain term ‘FoodProduct’ with its range term ‘Human’, and extracted from the Article 2(1) of EU Directive 98/83/EC. Like object-property ‘consumes’, this is also implicit in the legislative texts. It expresses the statement – ‘FoodProduct’ ‘isConsumedBy’ ‘Human’, which is a very essential and necessary object-property when this ontology will be merged with ‘EUDefinitionOfFood’ ontology. Because Article 2 of EU Regulation 178/2002/EC defines that the term ‘Feed ’ is not equivalent to the term ‘Food’, as food is consumed by human and feed is consumed by animal.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isConsumedBy</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">isConsumedBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isConsumedBy</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isCoordinatedBy</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">This is explicitly mentioned in the legislative texts of Article 2(1) of EU Directive 98/83/EC. It has total 7 uses in this ontology. It is functional and asymmetric when it is used between its domain term ‘WaterIn-tendedForHumanConsumption’ and its range term ‘CompetentNa-tionalAuthoritiesInWaterDomains’. It is also used in the formation and execution of some restriction, described in later section of this chapter. It has two sub object-properties – ‘isSuppliedFrom’ and ‘isUsedIn’. Because both of these properties also coordinated by competent national authorities in water domains. It has two sub object-properties – ‘isSuppliedFrom’ and ‘isUsedIn’. Because both of these properties also coordinated by competent national authorities in water domains. These two sub object-properties also have taken from the Article 2(1) of EU Directive 98/83/EC and their parent object-property is ‘isCoordinatedBy’. The object property ‘isSuppliedFrom’ linked the terms ‘WaterIn-tendedForHumanConsumption’ and ‘DistributionOfWater’, and other object property ‘isUsedIn’ established semantic relationships between the terms ‘WaterIntendedForHumanConsumption’, ‘FoodProductionActivity’ and ‘FoodProduct’ as their domains and ranges respectively with functional and asymmetric characteristics.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isCoordinatedBy</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">isCoordinatedBy</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isCoordinatedBy</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isIntendedFor</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">This object property is also extracted from Article 2(1) of EU Directive 98/83/EC and established the relationship between its domain term ‘WaterIn-tendedForHumanComsumption’ and its range term ‘HumanConsumptionActivity’. As ‘WaterIntendedForHumanComsumption’ is a ‘ConstitutiveRule’, it requires to generate some activities logically dependent on some legal rules. Under this consideration, the object property ‘isIntendedFor’ shows the connectivity of ‘ConstitutiveRule’ with some activities such as ‘HumanConsumptionActivity’.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isIntendedFor</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">isIntendedFor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isIntendedFor</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isSuppliedFrom</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">isSuppliedFrom</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#isUsedIn</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">isUsedIn</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallBeUsedFor</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">shallBeUsedFor and shallNotBeUsedFor - These object-properties are implicitly mentioned in the Article 2(1) of EU Directive 98/83/EC. The object-property ‘shallBeUsedFor’ connect the domain term ‘WaterIntendedForHumanConsumption’ and range term ‘FoodProductionActivity’ with functional and asymmetric characteristics, which has similar usages like the object property ‘isUsedIn’.  However, there is fundamental difference between the usages of ‘shallBeUsedFor’ and ‘isUsedIn’. Because the former one is used as an implication of legal rules as the verb ‘shall’ is used in order to express its legal connectivity and does not have any parent property. But the later one has a parental relationship with the object-property ‘isCoordinatedBy’. However, the inverse object-property of it is ‘shallNotBeUsedFor’, which has an important implication in this ontology. Because it expresses relationships among the domain term ‘WasteWater’ and two range terms – ‘FoodProductionActivity’ and ‘ComsumptionActivity’ with functional and asymmetric characteristics. Because EU Directive 98/83/EC implicitly expresses that waste water shall not be used in any type of food production and consumption activities such as food preparation, drinking and/or cooking etc.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallBeUsedFor</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">shallBeUsedFor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallBeUsedFor</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallHave</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">‘shallHave’ and ‘shallNotHave’ - Even though they seem inverses of each other, but in this ontology they are used as dissimilar object-properties with their own domains and ranges. Because the object-property ‘shallHave’ links between the domain term ‘WaterIntendedForHumanConsumption’ and its range term ‘QualityOfWater’. Whereas the object-property ‘shallNotHave’ connects the domain term ‘WaterIntendedForHumanConsumption’ and its range term ‘WasteWater’. It means even though their domain terms are similar with functional and asymmetric characteristics but they both are targeted to different range terms. Therefore, they are not inverses of each other by their characteristics.  However, these object-properties are implicit in the legislative texts of Article 2(1) of EU Directive 98/83/EC.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallHave</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">shallHave</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallHave</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotAffect</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">Even though this object-property seems it is an inverse object-property of ‘shallAffect’, but it is not. Because Article 2(1) of EU Directive 98/83/EC says the quality of the water shall not affect the wholesomeness of foodstuffs. Hence, the object property ‘shallNotAffect’ connects the domain term ‘QualityOfWater’ and ‘WholesomenessOfFoodstuff’ with functional and asymmetric characteristics.
+
+seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotAffect</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">shallNotAffect</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotAffect</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotBeUsedFor</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">shallNotBeUsedFor</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotBeUsedFor</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotHave</IRI>
+        <Literal datatypeIRI="&rdfs;Literal">shallNotHave</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
+        <IRI>http://www.semanticweb.org/mizanur/ontologies/2015/4/WFENexusTopClasses#shallNotHave</IRI>
+        <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.5.1) http://owlapi.sourceforge.net -->
+
