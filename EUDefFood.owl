@@ -22,6 +22,8 @@
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+     <Prefix name="wfetop" IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#"/>
+
     <Import>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses</Import>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
@@ -90,574 +92,574 @@ Please, for more, see at http://www.last-jd.eu/</Literal>
         <Literal datatypeIRI="&rdfs;Literal">This ontology is distributed under a Creative Commons Attribution License - http://creativecommons.org/licenses/by/3.0</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Biomass"/>
+        <Class IRI="&wfetop;Biomass"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ChewingGum"/>
+        <Class IRI="&wfetop;ChewingGum"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#CompletelyProcessedFoodProduct"/>
+        <Class IRI="&wfetop;CompletelyProcessedFoodProduct"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Contaminant"/>
+        <Class IRI="&wfetop;Contaminant"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Cosmetic"/>
+        <Class IRI="&wfetop;Cosmetic"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Drink"/>
+        <Class IRI="&wfetop;Drink"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ExpectedToBeIngested"/>
+        <Class IRI="&wfetop;ExpectedToBeIngested"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Feed"/>
+        <Class IRI="&wfetop;Feed"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Food"/>
+        <Class IRI="&wfetop;Food"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProduct"/>
+        <Class IRI="&wfetop;FoodProduct"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity"/>
+        <Class IRI="&wfetop;FoodProductionActivity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodSubstance"/>
+        <Class IRI="&wfetop;FoodSubstance"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodTreatment"/>
+        <Class IRI="&wfetop;FoodTreatment"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodUnderEURegulation"/>
+        <Class IRI="&wfetop;FoodUnderEURegulation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Foodstuff"/>
+        <Class IRI="&wfetop;Foodstuff"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumption"/>
+        <Class IRI="&wfetop;HumanConsumption"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#IntendedToBeIngested"/>
+        <Class IRI="&wfetop;IntendedToBeIngested"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LiveAnimal"/>
+        <Class IRI="&wfetop;LiveAnimal"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LiveAnimalPreparedForHumanConsumption"/>
+        <Class IRI="&wfetop;LiveAnimalPreparedForHumanConsumption"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LiveAnimalPreparedForNotHumanConsumption"/>
+        <Class IRI="&wfetop;LiveAnimalPreparedForNotHumanConsumption"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#MaintenanceOfQuality"/>
+        <Class IRI="&wfetop;MaintenanceOfQuality"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ManufactureOfFoodProduction"/>
+        <Class IRI="&wfetop;ManufactureOfFoodProduction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#MedicinalProduct"/>
+        <Class IRI="&wfetop;MedicinalProduct"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#NarcoticSubstance"/>
+        <Class IRI="&wfetop;NarcoticSubstance"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#NotFoodUnderEURegulation"/>
+        <Class IRI="&wfetop;NotFoodUnderEURegulation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PartiallyProcessed"/>
+        <Class IRI="&wfetop;PartiallyProcessed"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PlantAfterHarvesting"/>
+        <Class IRI="&wfetop;PlantAfterHarvesting"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PlantPriorToHarvesting"/>
+        <Class IRI="&wfetop;PlantPriorToHarvesting"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PointOfCompliance"/>
+        <Class IRI="&wfetop;PointOfCompliance"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PreparationOfFoodProduction"/>
+        <Class IRI="&wfetop;PreparationOfFoodProduction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ProcessingOfFoodProduction"/>
+        <Class IRI="&wfetop;ProcessingOfFoodProduction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PsychotropicSubstance"/>
+        <Class IRI="&wfetop;PsychotropicSubstance"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#QualityOfWater"/>
+        <Class IRI="&wfetop;QualityOfWater"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Residue"/>
+        <Class IRI="&wfetop;Residue"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#SubstanceInFood"/>
+        <Class IRI="&wfetop;SubstanceInFood"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Tobacco"/>
+        <Class IRI="&wfetop;Tobacco"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#TobaccoProducts"/>
+        <Class IRI="&wfetop;TobaccoProducts"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#TobaccoSubstance"/>
+        <Class IRI="&wfetop;TobaccoSubstance"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Unprocessed"/>
+        <Class IRI="&wfetop;Unprocessed"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WasteWater"/>
+        <Class IRI="&wfetop;WasteWater"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Water"/>
+        <Class IRI="&wfetop;Water"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterCompliance"/>
+        <Class IRI="&wfetop;WaterAfterCompliance"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterTreatment"/>
+        <Class IRI="&wfetop;WaterAfterTreatment"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterInItsOriginalState"/>
+        <Class IRI="&wfetop;WaterInItsOriginalState"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+        <Class IRI="&wfetop;WaterIntendedForHumanConsumption"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstance"/>
+        <Class IRI="&wfetop;WaterSubstance"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstanceInFood"/>
+        <Class IRI="&wfetop;WaterSubstanceInFood"/>
     </Declaration>
     <Declaration>
         <ObjectProperty IRI="#isUndertakenBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#canBe"/>
+        <ObjectProperty IRI="&wfetop;canBe"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#intentionallyIncorporatedInto"/>
+        <ObjectProperty IRI="&wfetop;intentionallyIncorporatedInto"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isAssociatedWith"/>
+        <ObjectProperty IRI="&wfetop;isAssociatedWith"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isPreparedForPlacingOn"/>
+        <ObjectProperty IRI="&wfetop;isPreparedForPlacingOn"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isRequiredBy"/>
+        <ObjectProperty IRI="&wfetop;isRequiredBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#mustMaintain"/>
+        <ObjectProperty IRI="&wfetop;mustMaintain"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallBeReasonably"/>
+        <ObjectProperty IRI="&wfetop;shallBeReasonably"/>
     </Declaration>
     <EquivalentClasses>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Food"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Foodstuff"/>
+        <Class IRI="&wfetop;Food"/>
+        <Class IRI="&wfetop;Foodstuff"/>
     </EquivalentClasses>
     <EquivalentClasses>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#MaintenanceOfQuality"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PointOfCompliance"/>
+        <Class IRI="&wfetop;MaintenanceOfQuality"/>
+        <Class IRI="&wfetop;PointOfCompliance"/>
     </EquivalentClasses>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Biomass"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Material"/>
+        <Class IRI="&wfetop;Biomass"/>
+        <Class IRI="&wfetop;Material"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ChewingGum"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#CompletelyProcessedFoodProduct"/>
+        <Class IRI="&wfetop;ChewingGum"/>
+        <Class IRI="&wfetop;CompletelyProcessedFoodProduct"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#CompletelyProcessedFoodProduct"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProduct"/>
+        <Class IRI="&wfetop;CompletelyProcessedFoodProduct"/>
+        <Class IRI="&wfetop;FoodProduct"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Contaminant"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#NotFoodUnderEURegulation"/>
+        <Class IRI="&wfetop;Contaminant"/>
+        <Class IRI="&wfetop;NotFoodUnderEURegulation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Contaminant"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Substance"/>
+        <Class IRI="&wfetop;Contaminant"/>
+        <Class IRI="&wfetop;Substance"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Cosmetic"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#NotFoodUnderEURegulation"/>
+        <Class IRI="&wfetop;Cosmetic"/>
+        <Class IRI="&wfetop;NotFoodUnderEURegulation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Cosmetic"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Product"/>
+        <Class IRI="&wfetop;Cosmetic"/>
+        <Class IRI="&wfetop;Product"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Drink"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#CompletelyProcessedFoodProduct"/>
+        <Class IRI="&wfetop;Drink"/>
+        <Class IRI="&wfetop;CompletelyProcessedFoodProduct"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ExpectedToBeIngested"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumption"/>
+        <Class IRI="&wfetop;ExpectedToBeIngested"/>
+        <Class IRI="&wfetop;HumanConsumption"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Feed"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#NotFoodUnderEURegulation"/>
+        <Class IRI="&wfetop;Feed"/>
+        <Class IRI="&wfetop;NotFoodUnderEURegulation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Feed"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Substance"/>
+        <Class IRI="&wfetop;Feed"/>
+        <Class IRI="&wfetop;Substance"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Food"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodUnderEURegulation"/>
+        <Class IRI="&wfetop;Food"/>
+        <Class IRI="&wfetop;FoodUnderEURegulation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Food"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Substance"/>
+        <Class IRI="&wfetop;Food"/>
+        <Class IRI="&wfetop;Substance"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProduct"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodUnderEURegulation"/>
+        <Class IRI="&wfetop;FoodProduct"/>
+        <Class IRI="&wfetop;FoodUnderEURegulation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProduct"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Product"/>
+        <Class IRI="&wfetop;FoodProduct"/>
+        <Class IRI="&wfetop;Product"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ProductionActivity"/>
+        <Class IRI="&wfetop;FoodProductionActivity"/>
+        <Class IRI="&wfetop;ProductionActivity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodSubstance"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Substance"/>
+        <Class IRI="&wfetop;FoodSubstance"/>
+        <Class IRI="&wfetop;Substance"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodTreatment"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ProcessingOfFoodProduction"/>
+        <Class IRI="&wfetop;FoodTreatment"/>
+        <Class IRI="&wfetop;ProcessingOfFoodProduction"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodUnderEURegulation"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ConstitutiveRule"/>
+        <Class IRI="&wfetop;FoodUnderEURegulation"/>
+        <Class IRI="&wfetop;ConstitutiveRule"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodUnderEURegulation"/>
+        <Class IRI="&wfetop;FoodUnderEURegulation"/>
         <ObjectUnionOf>
             <ObjectAllValuesFrom>
-                <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isAssociatedWith"/>
-                <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#IntendedToBeIngested"/>
+                <ObjectProperty IRI="&wfetop;isAssociatedWith"/>
+                <Class IRI="&wfetop;IntendedToBeIngested"/>
             </ObjectAllValuesFrom>
             <ObjectAllValuesFrom>
-                <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallBeReasonably"/>
-                <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ExpectedToBeIngested"/>
+                <ObjectProperty IRI="&wfetop;shallBeReasonably"/>
+                <Class IRI="&wfetop;ExpectedToBeIngested"/>
             </ObjectAllValuesFrom>
         </ObjectUnionOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodUnderEURegulation"/>
+        <Class IRI="&wfetop;FoodUnderEURegulation"/>
         <ObjectAllValuesFrom>
             <ObjectProperty IRI="#isUndertakenBy"/>
-            <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Human"/>
+            <Class IRI="&wfetop;Human"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodUnderEURegulation"/>
+        <Class IRI="&wfetop;FoodUnderEURegulation"/>
         <ObjectAllValuesFrom>
-            <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#canBe"/>
+            <ObjectProperty IRI="&wfetop;canBe"/>
             <ObjectUnionOf>
-                <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#CompletelyProcessedFoodProduct"/>
-                <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PartiallyProcessed"/>
-                <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Unprocessed"/>
+                <Class IRI="&wfetop;CompletelyProcessedFoodProduct"/>
+                <Class IRI="&wfetop;PartiallyProcessed"/>
+                <Class IRI="&wfetop;Unprocessed"/>
             </ObjectUnionOf>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Foodstuff"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Substance"/>
+        <Class IRI="&wfetop;Foodstuff"/>
+        <Class IRI="&wfetop;Substance"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumption"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ConsumptionActivity"/>
+        <Class IRI="&wfetop;HumanConsumption"/>
+        <Class IRI="&wfetop;ConsumptionActivity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#IntendedToBeIngested"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumption"/>
+        <Class IRI="&wfetop;IntendedToBeIngested"/>
+        <Class IRI="&wfetop;HumanConsumption"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LiveAnimal"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Animal"/>
+        <Class IRI="&wfetop;LiveAnimal"/>
+        <Class IRI="&wfetop;Animal"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LiveAnimalPreparedForHumanConsumption"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodUnderEURegulation"/>
+        <Class IRI="&wfetop;LiveAnimalPreparedForHumanConsumption"/>
+        <Class IRI="&wfetop;FoodUnderEURegulation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LiveAnimalPreparedForHumanConsumption"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LiveAnimal"/>
+        <Class IRI="&wfetop;LiveAnimalPreparedForHumanConsumption"/>
+        <Class IRI="&wfetop;LiveAnimal"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LiveAnimalPreparedForNotHumanConsumption"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LiveAnimal"/>
+        <Class IRI="&wfetop;LiveAnimalPreparedForNotHumanConsumption"/>
+        <Class IRI="&wfetop;LiveAnimal"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LiveAnimalPreparedForNotHumanConsumption"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#NotFoodUnderEURegulation"/>
+        <Class IRI="&wfetop;LiveAnimalPreparedForNotHumanConsumption"/>
+        <Class IRI="&wfetop;NotFoodUnderEURegulation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#MaintenanceOfQuality"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Quality"/>
+        <Class IRI="&wfetop;MaintenanceOfQuality"/>
+        <Class IRI="&wfetop;Quality"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ManufactureOfFoodProduction"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity"/>
+        <Class IRI="&wfetop;ManufactureOfFoodProduction"/>
+        <Class IRI="&wfetop;FoodProductionActivity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#MedicinalProduct"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#NotFoodUnderEURegulation"/>
+        <Class IRI="&wfetop;MedicinalProduct"/>
+        <Class IRI="&wfetop;NotFoodUnderEURegulation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#MedicinalProduct"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Product"/>
+        <Class IRI="&wfetop;MedicinalProduct"/>
+        <Class IRI="&wfetop;Product"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#NarcoticSubstance"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#NotFoodUnderEURegulation"/>
+        <Class IRI="&wfetop;NarcoticSubstance"/>
+        <Class IRI="&wfetop;NotFoodUnderEURegulation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#NarcoticSubstance"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Substance"/>
+        <Class IRI="&wfetop;NarcoticSubstance"/>
+        <Class IRI="&wfetop;Substance"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#NotFoodUnderEURegulation"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ConstitutiveRule"/>
+        <Class IRI="&wfetop;NotFoodUnderEURegulation"/>
+        <Class IRI="&wfetop;ConstitutiveRule"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PartiallyProcessed"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProduct"/>
+        <Class IRI="&wfetop;PartiallyProcessed"/>
+        <Class IRI="&wfetop;FoodProduct"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PlantAfterHarvesting"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Plant"/>
+        <Class IRI="&wfetop;PlantAfterHarvesting"/>
+        <Class IRI="&wfetop;Plant"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PlantPriorToHarvesting"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#NotFoodUnderEURegulation"/>
+        <Class IRI="&wfetop;PlantPriorToHarvesting"/>
+        <Class IRI="&wfetop;NotFoodUnderEURegulation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PlantPriorToHarvesting"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Plant"/>
+        <Class IRI="&wfetop;PlantPriorToHarvesting"/>
+        <Class IRI="&wfetop;Plant"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PointOfCompliance"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ConstitutiveRule"/>
+        <Class IRI="&wfetop;PointOfCompliance"/>
+        <Class IRI="&wfetop;ConstitutiveRule"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PreparationOfFoodProduction"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity"/>
+        <Class IRI="&wfetop;PreparationOfFoodProduction"/>
+        <Class IRI="&wfetop;FoodProductionActivity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ProcessingOfFoodProduction"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity"/>
+        <Class IRI="&wfetop;ProcessingOfFoodProduction"/>
+        <Class IRI="&wfetop;FoodProductionActivity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PsychotropicSubstance"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#NotFoodUnderEURegulation"/>
+        <Class IRI="&wfetop;PsychotropicSubstance"/>
+        <Class IRI="&wfetop;NotFoodUnderEURegulation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PsychotropicSubstance"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Substance"/>
+        <Class IRI="&wfetop;PsychotropicSubstance"/>
+        <Class IRI="&wfetop;Substance"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#QualityOfWater"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Quality"/>
+        <Class IRI="&wfetop;QualityOfWater"/>
+        <Class IRI="&wfetop;Quality"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Residue"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Material"/>
+        <Class IRI="&wfetop;Residue"/>
+        <Class IRI="&wfetop;Material"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Residue"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#NotFoodUnderEURegulation"/>
+        <Class IRI="&wfetop;Residue"/>
+        <Class IRI="&wfetop;NotFoodUnderEURegulation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#SubstanceInFood"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Substance"/>
+        <Class IRI="&wfetop;SubstanceInFood"/>
+        <Class IRI="&wfetop;Substance"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Tobacco"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#NotFoodUnderEURegulation"/>
+        <Class IRI="&wfetop;Tobacco"/>
+        <Class IRI="&wfetop;NotFoodUnderEURegulation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Tobacco"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Plant"/>
+        <Class IRI="&wfetop;Tobacco"/>
+        <Class IRI="&wfetop;Plant"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#TobaccoProducts"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#NotFoodUnderEURegulation"/>
+        <Class IRI="&wfetop;TobaccoProducts"/>
+        <Class IRI="&wfetop;NotFoodUnderEURegulation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#TobaccoProducts"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Product"/>
+        <Class IRI="&wfetop;TobaccoProducts"/>
+        <Class IRI="&wfetop;Product"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#TobaccoSubstance"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#NotFoodUnderEURegulation"/>
+        <Class IRI="&wfetop;TobaccoSubstance"/>
+        <Class IRI="&wfetop;NotFoodUnderEURegulation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#TobaccoSubstance"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Substance"/>
+        <Class IRI="&wfetop;TobaccoSubstance"/>
+        <Class IRI="&wfetop;Substance"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Unprocessed"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProduct"/>
+        <Class IRI="&wfetop;Unprocessed"/>
+        <Class IRI="&wfetop;FoodProduct"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WasteWater"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Water"/>
+        <Class IRI="&wfetop;WasteWater"/>
+        <Class IRI="&wfetop;Water"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Water"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Substance"/>
+        <Class IRI="&wfetop;Water"/>
+        <Class IRI="&wfetop;Substance"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterCompliance"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodUnderEURegulation"/>
+        <Class IRI="&wfetop;WaterAfterCompliance"/>
+        <Class IRI="&wfetop;FoodUnderEURegulation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterCompliance"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Source"/>
+        <Class IRI="&wfetop;WaterAfterCompliance"/>
+        <Class IRI="&wfetop;Source"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterCompliance"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Water"/>
+        <Class IRI="&wfetop;WaterAfterCompliance"/>
+        <Class IRI="&wfetop;Water"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterCompliance"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+        <Class IRI="&wfetop;WaterAfterCompliance"/>
+        <Class IRI="&wfetop;WaterIntendedForHumanConsumption"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterCompliance"/>
+        <Class IRI="&wfetop;WaterAfterCompliance"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#mustMaintain"/>
-            <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#QualityOfWater"/>
+            <ObjectProperty IRI="&wfetop;mustMaintain"/>
+            <Class IRI="&wfetop;QualityOfWater"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterTreatment"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterCompliance"/>
+        <Class IRI="&wfetop;WaterAfterTreatment"/>
+        <Class IRI="&wfetop;WaterAfterCompliance"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterInItsOriginalState"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterCompliance"/>
+        <Class IRI="&wfetop;WaterInItsOriginalState"/>
+        <Class IRI="&wfetop;WaterAfterCompliance"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ConstitutiveRule"/>
+        <Class IRI="&wfetop;WaterIntendedForHumanConsumption"/>
+        <Class IRI="&wfetop;ConstitutiveRule"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstance"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Water"/>
+        <Class IRI="&wfetop;WaterSubstance"/>
+        <Class IRI="&wfetop;Water"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstanceInFood"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodUnderEURegulation"/>
+        <Class IRI="&wfetop;WaterSubstanceInFood"/>
+        <Class IRI="&wfetop;FoodUnderEURegulation"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstanceInFood"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstance"/>
+        <Class IRI="&wfetop;WaterSubstanceInFood"/>
+        <Class IRI="&wfetop;WaterSubstance"/>
     </SubClassOf>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#canBe"/>
+        <ObjectProperty IRI="&wfetop;canBe"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#intentionallyIncorporatedInto"/>
+        <ObjectProperty IRI="&wfetop;intentionallyIncorporatedInto"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isAssociatedWith"/>
+        <ObjectProperty IRI="&wfetop;isAssociatedWith"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isPreparedForPlacingOn"/>
+        <ObjectProperty IRI="&wfetop;isPreparedForPlacingOn"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isRequiredBy"/>
+        <ObjectProperty IRI="&wfetop;isRequiredBy"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#mustMaintain"/>
+        <ObjectProperty IRI="&wfetop;mustMaintain"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallBeReasonably"/>
+        <ObjectProperty IRI="&wfetop;shallBeReasonably"/>
     </FunctionalObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#canBe"/>
+        <ObjectProperty IRI="&wfetop;canBe"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#intentionallyIncorporatedInto"/>
+        <ObjectProperty IRI="&wfetop;intentionallyIncorporatedInto"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isAssociatedWith"/>
+        <ObjectProperty IRI="&wfetop;isAssociatedWith"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isPreparedForPlacingOn"/>
+        <ObjectProperty IRI="&wfetop;isPreparedForPlacingOn"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isRequiredBy"/>
+        <ObjectProperty IRI="&wfetop;isRequiredBy"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#mustMaintain"/>
+        <ObjectProperty IRI="&wfetop;mustMaintain"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallBeReasonably"/>
+        <ObjectProperty IRI="&wfetop;shallBeReasonably"/>
     </AsymmetricObjectProperty>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#canBe"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodUnderEURegulation"/>
+        <ObjectProperty IRI="&wfetop;canBe"/>
+        <Class IRI="&wfetop;FoodUnderEURegulation"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#intentionallyIncorporatedInto"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstance"/>
+        <ObjectProperty IRI="&wfetop;intentionallyIncorporatedInto"/>
+        <Class IRI="&wfetop;WaterSubstance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isAssociatedWith"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PointOfCompliance"/>
+        <ObjectProperty IRI="&wfetop;isAssociatedWith"/>
+        <Class IRI="&wfetop;PointOfCompliance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isPreparedForPlacingOn"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LiveAnimalPreparedForHumanConsumption"/>
+        <ObjectProperty IRI="&wfetop;isPreparedForPlacingOn"/>
+        <Class IRI="&wfetop;LiveAnimalPreparedForHumanConsumption"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isRequiredBy"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterCompliance"/>
+        <ObjectProperty IRI="&wfetop;isRequiredBy"/>
+        <Class IRI="&wfetop;WaterAfterCompliance"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallBeReasonably"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodUnderEURegulation"/>
+        <ObjectProperty IRI="&wfetop;shallBeReasonably"/>
+        <Class IRI="&wfetop;FoodUnderEURegulation"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#canBe"/>
+        <ObjectProperty IRI="&wfetop;canBe"/>
         <ObjectUnionOf>
-            <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#CompletelyProcessedFoodProduct"/>
-            <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#IntendedToBeIngested"/>
-            <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PartiallyProcessed"/>
-            <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Unprocessed"/>
+            <Class IRI="&wfetop;CompletelyProcessedFoodProduct"/>
+            <Class IRI="&wfetop;IntendedToBeIngested"/>
+            <Class IRI="&wfetop;PartiallyProcessed"/>
+            <Class IRI="&wfetop;Unprocessed"/>
         </ObjectUnionOf>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#intentionallyIncorporatedInto"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity"/>
+        <ObjectProperty IRI="&wfetop;intentionallyIncorporatedInto"/>
+        <Class IRI="&wfetop;FoodProductionActivity"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isAssociatedWith"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#QualityOfWater"/>
+        <ObjectProperty IRI="&wfetop;isAssociatedWith"/>
+        <Class IRI="&wfetop;QualityOfWater"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isPreparedForPlacingOn"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Market"/>
+        <ObjectProperty IRI="&wfetop;isPreparedForPlacingOn"/>
+        <Class IRI="&wfetop;Market"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isRequiredBy"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodUnderEURegulation"/>
+        <ObjectProperty IRI="&wfetop;isRequiredBy"/>
+        <Class IRI="&wfetop;FoodUnderEURegulation"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallBeReasonably"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ExpectedToBeIngested"/>
+        <ObjectProperty IRI="&wfetop;shallBeReasonably"/>
+        <Class IRI="&wfetop;ExpectedToBeIngested"/>
     </ObjectPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
@@ -678,7 +680,7 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Biomass</IRI>
+        <IRI>&wfetop;Biomass</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 5 of Regulation (EU) No 691/2011  provides a comprehensive list of ‘Biomass’ and recognized it as a source of ‘RenewableEnergy’. In addition Article 2 (1) (b) of Directive 2003/30/EC specifically defines the term ‘Biomass’ which is mentioned and explained in the section of Entity ‘BiomassUnderEUDirective’. However, the terms ‘Biomass’ and ‘BiomassUnderEUDirective’, discussed above, are not the same entity due to their identity principles considering following points -   
 
 •	Generally normative perspective of the term ‘Biomass’, on the one hand, is repre-sented as a material sourced from animal and plants that contains static energy and can be released as heat . On the other hand, EU legal perspective over the term ‘Biomass’ is relatively more specific and well-grounded. It says ‘Biomass’ can be only in the form of biodegradable fraction of products, waste and/or residues. The law also includes municipal waste as a source of biomass.
@@ -689,146 +691,146 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447924423893&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Biomass</IRI>
+        <IRI>&wfetop;Biomass</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Biomass</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Biomass</IRI>
+        <IRI>&wfetop;Biomass</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447924423893&amp;uri=CELEX:32003L0030</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Biomass</IRI>
+        <IRI>&wfetop;Biomass</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447924518859&amp;uri=CELEX:32011R0691</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Biomass</IRI>
+        <IRI>&wfetop;Biomass</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447924561672&amp;uri=CELEX:32009L0028</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ChewingGum</IRI>
+        <IRI>&wfetop;ChewingGum</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 2 of EU Regulation 178/2002/EC defines &apos;Chewing gum&apos;&apos;is a type of food as well as &apos;food product&apos;.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ChewingGum</IRI>
+        <IRI>&wfetop;ChewingGum</IRI>
         <Literal datatypeIRI="&rdfs;Literal">ChewingGum</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ChewingGum</IRI>
+        <IRI>&wfetop;ChewingGum</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#CompletelyProcessedFoodProduct</IRI>
+        <IRI>&wfetop;CompletelyProcessedFoodProduct</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Entity ‘CompletelyProcessedFoodProduct’, ‘PartiallyProcessedFoodProduct’ and ‘UnprocessedFoodProduct’. These three terms are sub-classes of the entity ‘FoodProduct’ in according to the Article 2 of EU Regulation 178/2002/EC.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#CompletelyProcessedFoodProduct</IRI>
+        <IRI>&wfetop;CompletelyProcessedFoodProduct</IRI>
         <Literal datatypeIRI="&rdfs;Literal">CompletelyProcessedFoodProduct</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#CompletelyProcessedFoodProduct</IRI>
+        <IRI>&wfetop;CompletelyProcessedFoodProduct</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Contaminant</IRI>
+        <IRI>&wfetop;Contaminant</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 1 (2) of Directive 2009/32/EC  mentions that ‘Contaminant&apos; is a substance may be used in food as solvent and, however, Article 2 of EU Regulation 178/2002/EC clearly indicates that contaminant is not itself food. Therefore, this is sub-classes of both terms – ‘Substance’ and ‘NotFoodUnderEURegulation’.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178 and http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923496230&amp;uri=CELEX:32009L0032</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Contaminant</IRI>
+        <IRI>&wfetop;Contaminant</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Contaminant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Contaminant</IRI>
+        <IRI>&wfetop;Contaminant</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178 and http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923496230&amp;uri=CELEX:32009L0032</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Cosmetic</IRI>
+        <IRI>&wfetop;Cosmetic</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 2 (a) of Regulation (EC) No 1223/2009  defines - ‘cosmetic product’ means any substance or mixture intended to be placed in contact with the external parts of the human body (epidermis, hair system, nails, lips and external genital organs) or with the teeth and the mucous membranes of the oral cavity with a view exclusively or mainly to cleaning them, perfuming them, changing their appearance, protecting them, keeping them in good condition or correcting body odours’. Furthermore, Article 2 of EU Regulation 178/2002/EC and Council Directive 76/768/EEC  defines that cosmetic products are not food and therefore it is a sub-class of ‘NotFoodUnderEURegulation’.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923547150&amp;uri=CELEX:32009R1223</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Cosmetic</IRI>
+        <IRI>&wfetop;Cosmetic</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Cosmetic</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Cosmetic</IRI>
+        <IRI>&wfetop;Cosmetic</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923547150&amp;uri=CELEX:32009R1223</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Drink</IRI>
+        <IRI>&wfetop;Drink</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 2 of EU Regulation 178/2002/EC defines that &apos;drink&apos; represents as both - &apos;food&apos; as well as &apos;food product&apos;.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Drink</IRI>
+        <IRI>&wfetop;Drink</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Drink</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Drink</IRI>
+        <IRI>&wfetop;Drink</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ExpectedToBeIngested</IRI>
+        <IRI>&wfetop;ExpectedToBeIngested</IRI>
         <Literal datatypeIRI="&rdfs;Literal">In according to the Article 2 of EU Regulation 178/2002/EC, &apos;Expected to be ingested&apos; is a type of &apos;human consumption&apos;.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ExpectedToBeIngested</IRI>
+        <IRI>&wfetop;ExpectedToBeIngested</IRI>
         <Literal datatypeIRI="&rdfs;Literal">ExpectedToBeIngested</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ExpectedToBeIngested</IRI>
+        <IRI>&wfetop;ExpectedToBeIngested</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Feed</IRI>
+        <IRI>&wfetop;Feed</IRI>
         <Literal datatypeIRI="&rdfs;Literal">In according to the EU Regulation No 767/2009 , the term ‘Feed’ is used to represent such substance that is prepared for animal consumption. However, Article 2 of EU Regulation 178/2002/EC clearly indicated that food shall not include feed. Hence the term ‘Feed’ is sub-classes of two terms – ‘Substance’ and ‘NotFoodUnderEURegulation’.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923591838&amp;uri=CELEX:32009R0767</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Feed</IRI>
+        <IRI>&wfetop;Feed</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Feed</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Feed</IRI>
+        <IRI>&wfetop;Feed</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923591838&amp;uri=CELEX:32009R0767</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Food</IRI>
+        <IRI>&wfetop;Food</IRI>
         <Literal datatypeIRI="&rdfs;Literal">The very first line of first paragraph of Article 2 of EU Regulation 178/2002/EC expresses following legal expression about the term ‘Food’ and ‘Foodstuff’ -  
 
 “For the purposes of this Regulation, ‘food’ (or ‘foodstuff’) means any substance”
@@ -843,17 +845,17 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Food</IRI>
+        <IRI>&wfetop;Food</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Food</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Food</IRI>
+        <IRI>&wfetop;Food</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProduct</IRI>
+        <IRI>&wfetop;FoodProduct</IRI>
         <Literal datatypeIRI="&rdfs;Literal">In according to the Article 2 of EU Regulation 178/2002/EC, ‘FoodProduct’ is a type of ‘Product’ and used as a food. Therefore it is also considered as a sub-class of ‘FoodUnderEURegulation’. It has two sub-classes – ‘Drink’ and ‘ChewingGum’. By the same Regulation, these two types of food product are also recognized as a food, but they are not directly asserted sub-classes of ‘FoodUnderEURegulation’. Because as their parent-class - ‘FoodProduct’ is asserted sub-class of ‘FoodUnderEURegulation’, its child-classes become inferred sub-classes of ‘FoodUnderEURegulation’.
 
 Article 3(12) of Regulation (EC) No 1830/2003 defines that &quot;Pre-packaged product&quot; means any single item offered for sale consisting of a product and the packaging into which it was put before being offered for sale, whether such packaging encloses the product completely or only partially, provided that the contents cannot be altered without opening or changing the packaging.
@@ -862,83 +864,83 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447922687912&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProduct</IRI>
+        <IRI>&wfetop;FoodProduct</IRI>
         <Literal datatypeIRI="&rdfs;Literal">FoodProduct</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProduct</IRI>
+        <IRI>&wfetop;FoodProduct</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProduct</IRI>
+        <IRI>&wfetop;FoodProduct</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447922687912&amp;uri=CELEX:32003R1830</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity</IRI>
+        <IRI>&wfetop;FoodProductionActivity</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Food production is a type of production activity. Generally it consistes with the process of transforming raw ingredients into prepared food products. This activity can also be sub-classesd as manufacture, marketing, preservation and processing of the food production.
 
 seeAlso - http://www.cdc.gov/foodsafety/outbreaks/investigating-outbreaks/production-chain.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity</IRI>
+        <IRI>&wfetop;FoodProductionActivity</IRI>
         <Literal datatypeIRI="&rdfs;Literal">FoodProductionActivity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity</IRI>
+        <IRI>&wfetop;FoodProductionActivity</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://www.cdc.gov/foodsafety/outbreaks/investigating-outbreaks/production-chain.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodSubstance</IRI>
+        <IRI>&wfetop;FoodSubstance</IRI>
         <Literal datatypeIRI="&rdfs;Literal">&apos;Food substance&apos; itself can be a type of &apos;food product&apos;.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodSubstance</IRI>
+        <IRI>&wfetop;FoodSubstance</IRI>
         <Literal datatypeIRI="&rdfs;Literal">The terms – ‘FoodSubstance’ and ‘Food’ are two different entities in this ontology due to their own identity principle. The EU Regulation No 1925/2006  specifies that ‘FoodSubstance’ is a type of ‘Substance’ that can be used itself as a food or as ingredient to be used in the food production processes, e.g. certain types of chemical such as vitamin or fruits. As a result, they are not disjoint terms. However, in according to the Article 2 of EU Regulation 178/2002/EC, water can be used as a food substance in the food preparation.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447924871801&amp;uri=CELEX:32006R1925</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodSubstance</IRI>
+        <IRI>&wfetop;FoodSubstance</IRI>
         <Literal datatypeIRI="&rdfs;Literal">FoodSubstance</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodSubstance</IRI>
+        <IRI>&wfetop;FoodSubstance</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodSubstance</IRI>
+        <IRI>&wfetop;FoodSubstance</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447924871801&amp;uri=CELEX:32006R1925</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodTreatment</IRI>
+        <IRI>&wfetop;FoodTreatment</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 4 (4) (a) of Directive 1999/2/EC mentions that – food treatment activity is subject to a favorable opinion of the Scientific Committee for Food. In addition, Article 2 of EU Regulation 178/2002/EC demonstrates that if the water is intentionally incorporated into the food treatment activity, then it will be legally considered as food.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447922121237&amp;uri=CELEX:31999L0002</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodTreatment</IRI>
+        <IRI>&wfetop;FoodTreatment</IRI>
         <Literal datatypeIRI="&rdfs;Literal">FoodTreatment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodTreatment</IRI>
+        <IRI>&wfetop;FoodTreatment</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447922121237&amp;uri=CELEX:31999L0002</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodUnderEURegulation</IRI>
+        <IRI>&wfetop;FoodUnderEURegulation</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Conceptually the term ‘Food’ is a ‘Substance’ like ‘Water’ in EUDefinitionOfWaterIntendedForHumanConsumption ontology. First two paragraphs of Article 2 of EU Regulation 178/2002/EC describe comprehensively legal conception of the term ‘Food’, which goes far behind of the general scientific and constructive notion of food. Because the term ‘FoodUnderEURegulation’ does not only mean ‘Substance’ rather it generates a number of activities and logical de-pendency of performing those activities lies with some legal rules. Therefore, this term is a sub-class of the top-class ‘ConstitutiveRule’ for following reasons – 
 
 •	Role to create activity/ies – Since this Regulation enforced, the term ‘Food’ does not remain only a physical entity. Rather ‘FoodUnderEURegulation’ plays an im-portant role to generate, on the one hand, a number of mental activities such as in-volvement of human intention and expectation in order to qualify a substance or product as a food. On the other hand, it also establishes that any substance or product manipulated by human’s food production processes does not affect the legal value of accepting that substance or product as food. Hence, it helps to legalize all activities perform in the food processing industry.     
@@ -951,34 +953,34 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodUnderEURegulation</IRI>
+        <IRI>&wfetop;FoodUnderEURegulation</IRI>
         <Literal datatypeIRI="&rdfs;Literal">FoodUnderEURegulation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodUnderEURegulation</IRI>
+        <IRI>&wfetop;FoodUnderEURegulation</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Foodstuff</IRI>
+        <IRI>&wfetop;Foodstuff</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 2 of EU Regulation 178/2002/EC explicitly mentions that foodstuffs are also food.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Foodstuff</IRI>
+        <IRI>&wfetop;Foodstuff</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Foodstuff</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Foodstuff</IRI>
+        <IRI>&wfetop;Foodstuff</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumption</IRI>
+        <IRI>&wfetop;HumanConsumption</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 2 of EU Regulation 178/2002/EC does not mention explicitly the term ‘HumanConsumption’, but it explains the term ‘HumanConsumption’ implicitly by using following phase -    
 “Intended to be, or reasonably expected to be ingested by humans”
 Considering this legislative text, following two terms can be extracted - ‘Ex-pectedToBeIngested’ and ‘IntendedToBeIngested’. Both of these terms implicitly explain identity principles of the term ‘HumanConsumption’, which is not mentioned in the Article 2 of EU Directive 98/83/EC. Hence these terms are not part of EUDefi-nitionOfWaterIntendedForHumanConsumption ontology, but here used as sub-classes of the term ‘HumanConsumption’ for following reasons – 
@@ -999,22 +1001,22 @@ seeAlso - http://india.lawi.asia/state-delhi-administration-v-puran-mal</Literal
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumption</IRI>
+        <IRI>&wfetop;HumanConsumption</IRI>
         <Literal datatypeIRI="&rdfs;Literal">HumanConsumption</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumption</IRI>
+        <IRI>&wfetop;HumanConsumption</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://india.lawi.asia/state-delhi-administration-v-puran-mal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumption</IRI>
+        <IRI>&wfetop;HumanConsumption</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://www.oxforddictionaries.com/definition/english/consumption</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#IntendedToBeIngested</IRI>
+        <IRI>&wfetop;IntendedToBeIngested</IRI>
         <Literal datatypeIRI="&rdfs;Literal">The Article 2 of EU Regulation 178/2002/EC implicitly demonstrates that both of these terms represent mental performance of human consumption and play an important role in order to legally qualify any substance as food. The differences and similarities between these two terms as follow –
  
 •	The term ‘ExpectedToBeIngested’, on the one hand, shows positive eagerness in order to consume food that is legally permitted. The term ‘IntendedToBeIngested’, on the other hand, shows targeted behavior in order to consume food that is legally permitted. 
@@ -1025,141 +1027,141 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#IntendedToBeIngested</IRI>
+        <IRI>&wfetop;IntendedToBeIngested</IRI>
         <Literal datatypeIRI="&rdfs;Literal">IntendedToBeIngested</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#IntendedToBeIngested</IRI>
+        <IRI>&wfetop;IntendedToBeIngested</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LiveAnimal</IRI>
+        <IRI>&wfetop;LiveAnimal</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Even though there are a number of legislations in EU related with the term ‘LiveAnimal’  such as aquaculture, bees, equine, ovine and caprine etc, it is very hard to find a unique definition of ‘LiveAnimal’. However, in according to the Article 2 of EU Regulation 178/2002/EC, live animals are not food unless they are prepared to sale in the market for human consumption. Therefore, two further classes are added as the sub-classes of the term ‘LiveAnimal’. They are – (a) ‘LiveAnimalPreparedForHumanConsumption’ means a type of live animal, such as cow, pigs etc, are reared to sale in the market with a particular purpose for human consumption, and therefore such live animal is considered as food. (b) ‘LiveAnimalPreparedForNotHumanConsumption’ is a type of live animal which is reared neither for sale in market nor for human consumption, and therefore they are sub-class of ‘NotFoodUnderEURegulation’.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LiveAnimal</IRI>
+        <IRI>&wfetop;LiveAnimal</IRI>
         <Literal datatypeIRI="&rdfs;Literal">LiveAnimal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LiveAnimal</IRI>
+        <IRI>&wfetop;LiveAnimal</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://ec.europa.eu/food/animal/zootechnics/legislation_en.htm</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LiveAnimal</IRI>
+        <IRI>&wfetop;LiveAnimal</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LiveAnimalPreparedForHumanConsumption</IRI>
+        <IRI>&wfetop;LiveAnimalPreparedForHumanConsumption</IRI>
         <Literal datatypeIRI="&rdfs;Literal">In according to the Article 2 of EU Regulation 178/2002/EC, ‘LiveAnimalPreparedForHumanConsumption’ means a type of live animal, such as cow, pigs etc, are reared to sale in the market with a particular purpose for human consumption, and therefore such live animal is considered as food.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LiveAnimalPreparedForHumanConsumption</IRI>
+        <IRI>&wfetop;LiveAnimalPreparedForHumanConsumption</IRI>
         <Literal datatypeIRI="&rdfs;Literal">LiveAnimalPreparedForHumanConsumption</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LiveAnimalPreparedForHumanConsumption</IRI>
+        <IRI>&wfetop;LiveAnimalPreparedForHumanConsumption</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LiveAnimalPreparedForNotHumanConsumption</IRI>
+        <IRI>&wfetop;LiveAnimalPreparedForNotHumanConsumption</IRI>
         <Literal datatypeIRI="&rdfs;Literal">In according to the Article 2 of EU Regulation 178/2002/EC,‘LiveAnimalPreparedForNotHumanConsumption’ is a type of live animal which is reared neither for sale in market nor for human consumption, and therefore they are sub-class of ‘NotFoodUnderEURegulation’.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LiveAnimalPreparedForNotHumanConsumption</IRI>
+        <IRI>&wfetop;LiveAnimalPreparedForNotHumanConsumption</IRI>
         <Literal datatypeIRI="&rdfs;Literal">LiveAnimalPreparedForNotHumanConsumption</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LiveAnimalPreparedForNotHumanConsumption</IRI>
+        <IRI>&wfetop;LiveAnimalPreparedForNotHumanConsumption</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#MaintenanceOfQuality</IRI>
+        <IRI>&wfetop;MaintenanceOfQuality</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Maintenance of quality is a sub-class of the term ‘Quality’, which is mentioned specifically in many regulations of EU. The preamble of one of such regulations is Directive 2006/7/EC , which says that - &quot;Community policy on the environment should aim at a high level of protection, and contribute to pursuing the objectives of preserving, protecting and improving the quality of the environment and of protecting human health&quot;. Here legal phrase ‘objective of preserving, protecting and improving the quality’ is used to express the term ‘MaintenanceOfQuality’, which is an equivalent class to the term ‘PointOfCompliance’.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447924671014&amp;uri=CELEX:32006L0007</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#MaintenanceOfQuality</IRI>
+        <IRI>&wfetop;MaintenanceOfQuality</IRI>
         <Literal datatypeIRI="&rdfs;Literal">MaintenanceOfQuality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#MaintenanceOfQuality</IRI>
+        <IRI>&wfetop;MaintenanceOfQuality</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447924671014&amp;uri=CELEX:32006L0007</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ManufactureOfFoodProduction</IRI>
+        <IRI>&wfetop;ManufactureOfFoodProduction</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Food manufacture is type of food production activity which deals with the processing activities by which food is manufactured.
 
 seeAlso - https://en.wikipedia.org/wiki/Food_manufacture</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ManufactureOfFoodProduction</IRI>
+        <IRI>&wfetop;ManufactureOfFoodProduction</IRI>
         <Literal datatypeIRI="&rdfs;Literal">ManufactureOfFoodProduction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ManufactureOfFoodProduction</IRI>
+        <IRI>&wfetop;ManufactureOfFoodProduction</IRI>
         <Literal datatypeIRI="&xsd;anyURI">https://en.wikipedia.org/wiki/Food_manufacture</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#MedicinalProduct</IRI>
+        <IRI>&wfetop;MedicinalProduct</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 3 (3) of Regulation (EC) No 726/2004  recognizes that medicinal product is a type of ‘Product’. However, Article 2 of EU Regulation 178/2002/EC declared that medicinal product, within the meaning of Council Directives 65/65/EEC  and 92/73/EEC , is not food. Therefore, the term ‘MedicinalProduct’ is a sub-class of the constitutive rule ‘NotFoodUnderEURegulation’.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923653076&amp;uri=CELEX:32004R0726</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#MedicinalProduct</IRI>
+        <IRI>&wfetop;MedicinalProduct</IRI>
         <Literal datatypeIRI="&rdfs;Literal">MedicinalProduct</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#MedicinalProduct</IRI>
+        <IRI>&wfetop;MedicinalProduct</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923653076&amp;uri=CELEX:32004R0726</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#NarcoticSubstance</IRI>
+        <IRI>&wfetop;NarcoticSubstance</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Council Regulation (EC) No 111/2005  recognize narcotic as a substance and Article 2 of EU Regulation 178/2002/EC established that narcotic substance is not food. As a result, this term is sub-classes of two entities simultaneously – ‘Substance’ and ‘NotFoodUnderEURegulation’.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923689850&amp;uri=CELEX:32005R0111</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#NarcoticSubstance</IRI>
+        <IRI>&wfetop;NarcoticSubstance</IRI>
         <Literal datatypeIRI="&rdfs;Literal">NarcoticSubstance</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#NarcoticSubstance</IRI>
+        <IRI>&wfetop;NarcoticSubstance</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923689850&amp;uri=CELEX:32005R0111</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#NotFoodUnderEURegulation</IRI>
+        <IRI>&wfetop;NotFoodUnderEURegulation</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Third paragraph of Article 2 of EU Regulation 178/2002/EC provides a list of those substances or products are not legally considered as food by using following legislative text – 
 “‘Food’ shall not include:”
 
@@ -1181,34 +1183,34 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#NotFoodUnderEURegulation</IRI>
+        <IRI>&wfetop;NotFoodUnderEURegulation</IRI>
         <Literal datatypeIRI="&rdfs;Literal">NotFoodUnderEURegulation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#NotFoodUnderEURegulation</IRI>
+        <IRI>&wfetop;NotFoodUnderEURegulation</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PartiallyProcessed</IRI>
+        <IRI>&wfetop;PartiallyProcessed</IRI>
         <Literal datatypeIRI="&rdfs;Literal">&apos;Partially processed&apos; is a sub-class of &apos;food product&apos;, which means that food product can be in the state of partially processed and is often involved with water usages.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PartiallyProcessed</IRI>
+        <IRI>&wfetop;PartiallyProcessed</IRI>
         <Literal datatypeIRI="&rdfs;Literal">PartiallyProcessedFoodProduct</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PartiallyProcessed</IRI>
+        <IRI>&wfetop;PartiallyProcessed</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PlantAfterHarvesting</IRI>
+        <IRI>&wfetop;PlantAfterHarvesting</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Harvesting is a type of ‘Activity’ that involves gathering mature crops from the field .  Likewise, in the Article 33 (4) (a) of Regulation (EU) No 1308/2013  specifies the meaning of green harvesting as harvesting activity of unripe non-marketable products. However, it does not define any of these terms - ‘PlantAfterHarvesting’ and ‘PlantPriorToHarvesting’. Even though, Article 2 of EU Regulation 178/2002/EC does not also define these terms, but it demonstrates that 
 “Plants prior to harvesting is not food”.
 Therefore, it implicitly categorized the entire world of plants into two broad but dis-tinct groups. The first is an explicit term, as it is mentioned in the legislative texts, the ‘PlantPriorToHarvesting’ which legally means that any plant before harvesting is performed is not food. The other one is implicit term, as it is extracted from the meaning of the legislative texts, the ‘PlantAfterHarvesting’, which legally means that any plant after harvesting is food. Thus, these two terms have been introduced, as a subclass of the term ‘Plant’, in order to design ontology of this legislative text and their relationships with term ‘FoodUnderEUDirective’ and ‘NotFoodUnderEUDirective’.
@@ -1217,39 +1219,39 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447924317612&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PlantAfterHarvesting</IRI>
+        <IRI>&wfetop;PlantAfterHarvesting</IRI>
         <Literal datatypeIRI="&rdfs;Literal">PlantAfterHarvesting</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PlantAfterHarvesting</IRI>
+        <IRI>&wfetop;PlantAfterHarvesting</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PlantAfterHarvesting</IRI>
+        <IRI>&wfetop;PlantAfterHarvesting</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447924317612&amp;uri=CELEX:32013R1308</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PlantPriorToHarvesting</IRI>
+        <IRI>&wfetop;PlantPriorToHarvesting</IRI>
         <Literal datatypeIRI="&rdfs;Literal">&apos;Plant prior to harvesting&apos; is a type of &apos;harvesting activity&apos; and &apos;plant&apos;.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PlantPriorToHarvesting</IRI>
+        <IRI>&wfetop;PlantPriorToHarvesting</IRI>
         <Literal datatypeIRI="&rdfs;Literal">PlantPriorToHarvesting</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PlantPriorToHarvesting</IRI>
+        <IRI>&wfetop;PlantPriorToHarvesting</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PointOfCompliance</IRI>
+        <IRI>&wfetop;PointOfCompliance</IRI>
         <Literal datatypeIRI="&rdfs;Literal">The second line of second paragraph of Article 2 of EU Regulation 178/2002/EC says – 
 
  “It includes water after the point of compliance as defined in Article 6 of Directive 98/83/EC and without prejudice to the requirements of Directives 80/778/EEC and 98/83/EC”.
@@ -1264,112 +1266,112 @@ seeAlso - http://www.audioenglish.org/dictionary/compliance.htm and http://eur-l
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PointOfCompliance</IRI>
+        <IRI>&wfetop;PointOfCompliance</IRI>
         <Literal datatypeIRI="&rdfs;Literal">PointOfCompliance</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PointOfCompliance</IRI>
+        <IRI>&wfetop;PointOfCompliance</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://www.audioenglish.org/dictionary/compliance.htm and http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PreparationOfFoodProduction</IRI>
+        <IRI>&wfetop;PreparationOfFoodProduction</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Food preparation is a type of &apos;food production activity&apos;. Generally it is for preparing activitiy with food for eating, requires selection, measurement and combination of ingredients in an ordered procedure so as to achieve desired results. Food preparation often include water to use.
 
 seeAlso - http://www.thefullwiki.org/Food_preparation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PreparationOfFoodProduction</IRI>
+        <IRI>&wfetop;PreparationOfFoodProduction</IRI>
         <Literal datatypeIRI="&rdfs;Literal">PreparationOfFoodProduction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PreparationOfFoodProduction</IRI>
+        <IRI>&wfetop;PreparationOfFoodProduction</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://www.thefullwiki.org/Food_preparation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ProcessingOfFoodProduction</IRI>
+        <IRI>&wfetop;ProcessingOfFoodProduction</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Food processing is a type of food prodcution activity that includes the methods and techniques used to transform raw ingredients into food for human consumption. Food processing takes clean, harvested or slaughtered and butchered components and uses them to produce marketable food products.
 
 seeAlso - https://en.wikipedia.org/wiki/Food_processing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ProcessingOfFoodProduction</IRI>
+        <IRI>&wfetop;ProcessingOfFoodProduction</IRI>
         <Literal datatypeIRI="&rdfs;Literal">ProcessingOfFoodProduction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ProcessingOfFoodProduction</IRI>
+        <IRI>&wfetop;ProcessingOfFoodProduction</IRI>
         <Literal datatypeIRI="&xsd;anyURI">https://en.wikipedia.org/wiki/Food_processing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PsychotropicSubstance</IRI>
+        <IRI>&wfetop;PsychotropicSubstance</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Council Decision 90/611/EEC , in where it is mentioned that psychotropic is a substance and provided a list of this type of substances. However, Article 2 of EU Regulation 178/2002/EC says that psychotropic substance is not food. Hence this is sub-classes of ‘Substance’ and ‘NotFoodUnderEURegulation’.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923766813&amp;uri=CELEX:31990D0611 and http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PsychotropicSubstance</IRI>
+        <IRI>&wfetop;PsychotropicSubstance</IRI>
         <Literal datatypeIRI="&rdfs;Literal">PsychotropicSubstance</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PsychotropicSubstance</IRI>
+        <IRI>&wfetop;PsychotropicSubstance</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923766813&amp;uri=CELEX:31990D0611 and http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#QualityOfWater</IRI>
+        <IRI>&wfetop;QualityOfWater</IRI>
         <Literal datatypeIRI="&rdfs;Literal">In according to the EU Directive 98/83/EC, ‘QualityOfWater’ refers to the chemical, physical, biological, and radiological characteristics of water. It is also expressed as a measure of the condition of water relative to the requirements of one or more biotic species and or to any human need or purpose. It is most frequently used by reference to a set of standards against which compliance can be assessed . In addition, Article 2 of EU Regulation 178/2002/EC mentions that quality of water must be ensured in order to consider water as a food. It also specifies that water-substance used in food manufacturing activities must maintain the quality mentioned in the respective laws. In this ontology, this is a sub-class of the term ‘Quality’.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#QualityOfWater</IRI>
+        <IRI>&wfetop;QualityOfWater</IRI>
         <Literal datatypeIRI="&rdfs;Literal">QualityOfWater</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#QualityOfWater</IRI>
+        <IRI>&wfetop;QualityOfWater</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://ec.europa.eu/environment/water/water-drink/reporting_en.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#QualityOfWater</IRI>
+        <IRI>&wfetop;QualityOfWater</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Residue</IRI>
+        <IRI>&wfetop;Residue</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 2 of EU Regulation 178/2002/EC defines residue is a type of biomass.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Residue</IRI>
+        <IRI>&wfetop;Residue</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 3(c) of REGULATION (EC) NO 396/2005 says ‘pesticide residues’ means residues, including active substances, metabolites and/or breakdown or reaction products of active substances currently or formerly used in plant protection products as defined in Article 2, point 1 of Directive 91/414/EEC, which are present in or on the products covered by Annex I to this Regulation, including in particular those which may arise as a result of use in plant protection, in veterinary medicine and as a biocide.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178 and http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923880584&amp;uri=CELEX:32005R0396</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Residue</IRI>
+        <IRI>&wfetop;Residue</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Residue</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Residue</IRI>
+        <IRI>&wfetop;Residue</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178 and http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923880584&amp;uri=CELEX:32005R0396</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#SubstanceInFood</IRI>
+        <IRI>&wfetop;SubstanceInFood</IRI>
         <Literal datatypeIRI="&rdfs;Literal">FoodSubstance’ and ‘SubstanceInFood’ has their own identity principle and therefore they are different entity. ‘FoodSubstance’ can be a ‘SubstanceInFood’, but a ‘SubstanceInFood’ may not be necessarily a ‘FoodSubstance’. The preamble no 10 of the Regulation (EC) No 1925/2006  demonstrates the importance of this term saying that – 
 &apos;&apos;The chemical substances used as sources of vitamins and minerals which may be added to foods should be safe and also be bio-available i.e. available to be used by the body. For this reason a positive list of these substances should also be estab-lished. Such substances that have been approved by the Scientific Committee on Food in an Opinion expressed on 12 May 1999, on the basis of the above criteria of safety and bio-availability, and can be used in the manufacture of foods intended for infants and young children, other foods for particular nutritional uses or food supplements should appear in this positive list. Although sodium chloride (common salt) does not appear among the substances in this list, it may continue to be used as an ingredient in the preparation of food&apos;&apos;.
 
@@ -1379,200 +1381,200 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#SubstanceInFood</IRI>
+        <IRI>&wfetop;SubstanceInFood</IRI>
         <Literal datatypeIRI="&rdfs;Literal">SubstanceInFood</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#SubstanceInFood</IRI>
+        <IRI>&wfetop;SubstanceInFood</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#SubstanceInFood</IRI>
+        <IRI>&wfetop;SubstanceInFood</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447924871801&amp;uri=CELEX:32006R1925</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Tobacco</IRI>
+        <IRI>&wfetop;Tobacco</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 2(1) of Directive 2014/40/EU  specifics that the ‘Tobacco’ means leaves and other natural processed or unprocessed parts of tobacco plants, including expanded and reconstituted tobacco. This is a sub-class of the term ‘Plant’. In addition, in according to the Article 2 of EU Regulation 178/2002/EC and Council Directive 89/622/EEC , tobacco is not considered as food. Therefore, this is also sub-class of the term ‘NotFoodUnderEURegulation’.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178 and http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923961763&amp;uri=CELEX:32014L0040</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Tobacco</IRI>
+        <IRI>&wfetop;Tobacco</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Tobacco</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Tobacco</IRI>
+        <IRI>&wfetop;Tobacco</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178 and http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923961763&amp;uri=CELEX:32014L0040</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#TobaccoProducts</IRI>
+        <IRI>&wfetop;TobaccoProducts</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 2 (4) of EU Directive 2014/40/EU  says that tobacco products’ represents such type of products that can be consumed and consist, even partly, of tobacco, whether genetically modified or not. However, in according to the Article 2 of EU Regulation 178/2002/EC, ‘TobaccoProducts’ is not declared as food. Hence this is another sub-class of the entity ‘NotFoodUnderEURegulation’.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923961763&amp;uri=CELEX:32014L0040 and http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#TobaccoProducts</IRI>
+        <IRI>&wfetop;TobaccoProducts</IRI>
         <Literal datatypeIRI="&rdfs;Literal">TobaccoProducts</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#TobaccoProducts</IRI>
+        <IRI>&wfetop;TobaccoProducts</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923961763&amp;uri=CELEX:32014L0040 and http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#TobaccoSubstance</IRI>
+        <IRI>&wfetop;TobaccoSubstance</IRI>
         <Literal datatypeIRI="&rdfs;Literal">The terms ‘TobaccoProduct’, which is a sub-class of ‘Product,’ and ‘TobaccoSubstance’ are distinct by their identity principles. Because on the one hand, ‘TobaccoSubstance’ can be used to produce ‘TobaccoProduct’. On the other hand, ‘TobaccoProduct’ also can be used as a ‘TobaccoSubstance’ in order to produce other types of products, not necessarily ‘FoodProduct’. In the line of this argument, Article 2 (18) of Directive 2014/40/EU  mentions that “tobacco sub-stance are substance or ingredients that are present in a finished tobacco product or related products, including paper, filter, ink, capsules and adhesives”. However, Article 2 of EU Regulation 178/2002/EC clearly specifies that ‘TobaccoSubstance’ is not food. Therefore this term is sub-classes of ‘Substance’ and ‘NotFoodUn-derEURegulation’.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923961763&amp;uri=CELEX:32014L0040</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#TobaccoSubstance</IRI>
+        <IRI>&wfetop;TobaccoSubstance</IRI>
         <Literal datatypeIRI="&rdfs;Literal">TobaccoSubstance</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#TobaccoSubstance</IRI>
+        <IRI>&wfetop;TobaccoSubstance</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#TobaccoSubstance</IRI>
+        <IRI>&wfetop;TobaccoSubstance</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923961763&amp;uri=CELEX:32014L0040</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Unprocessed</IRI>
+        <IRI>&wfetop;Unprocessed</IRI>
         <Literal datatypeIRI="&rdfs;Literal">&apos;Unprocessed&apos; is the absent of any application of food processing over the food. It also is a kind of state of &apos;food product&apos;.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Unprocessed</IRI>
+        <IRI>&wfetop;Unprocessed</IRI>
         <Literal datatypeIRI="&rdfs;Literal">UnprocessedFoodProduct</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Unprocessed</IRI>
+        <IRI>&wfetop;Unprocessed</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WasteWater</IRI>
+        <IRI>&wfetop;WasteWater</IRI>
         <Literal datatypeIRI="&rdfs;Literal">&apos;Waste water&apos; is a type of &apos;Water&apos;, but not &apos;water intended for human consumption&apos;.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447925044882&amp;uri=CELEX:32006L0044</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WasteWater</IRI>
+        <IRI>&wfetop;WasteWater</IRI>
         <Literal datatypeIRI="&rdfs;Literal">WasteWater</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WasteWater</IRI>
+        <IRI>&wfetop;WasteWater</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WasteWater</IRI>
+        <IRI>&wfetop;WasteWater</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447925044882&amp;uri=CELEX:32006L0044</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Water</IRI>
+        <IRI>&wfetop;Water</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Water itself is a type of substance and Article 2 of EU Regulation 178/2002/EC says that water is food.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Water</IRI>
+        <IRI>&wfetop;Water</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Water</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Water</IRI>
+        <IRI>&wfetop;Water</IRI>
         <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">Directive 2000/60/EC of the European Parliament and of the Council of 23 October 2000 establishing a framework for Community action in the field of water policy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Water</IRI>
+        <IRI>&wfetop;Water</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Water</IRI>
+        <IRI>&wfetop;Water</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterCompliance</IRI>
+        <IRI>&wfetop;WaterAfterCompliance</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 2 of EU Regulation 178/2002/EC stipulates that water after the point of compliance is food, ‘WaterAfterCompliance’ and its sub-classes – ‘WaterAfterTreatment’ and ‘WaterInItsOriginalState’ are also considered as sub-classes of the top-class ‘Source’, shown in Figure 46, which relationship is absent in the EUDefinitionOfWaterIntendedForHumanConsumption ontology.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083 and http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterCompliance</IRI>
+        <IRI>&wfetop;WaterAfterCompliance</IRI>
         <Literal datatypeIRI="&rdfs;Literal">WaterAfterCompliance</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterCompliance</IRI>
+        <IRI>&wfetop;WaterAfterCompliance</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083 and http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterCompliance</IRI>
+        <IRI>&wfetop;WaterAfterCompliance</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923352091&amp;uri=CELEX:32006L0007</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterTreatment</IRI>
+        <IRI>&wfetop;WaterAfterTreatment</IRI>
         <Literal datatypeIRI="&rdfs;Literal">&apos;Water after treatment&apos; is a kind of &apos;water after compliance&apos;.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterTreatment</IRI>
+        <IRI>&wfetop;WaterAfterTreatment</IRI>
         <Literal datatypeIRI="&rdfs;Literal">WaterAfterTreatment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterTreatment</IRI>
+        <IRI>&wfetop;WaterAfterTreatment</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterInItsOriginalState</IRI>
+        <IRI>&wfetop;WaterInItsOriginalState</IRI>
         <Literal datatypeIRI="&rdfs;Literal">&apos;Water in its original state&apos; is a type of &apos;water after compliance&apos;.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterInItsOriginalState</IRI>
+        <IRI>&wfetop;WaterInItsOriginalState</IRI>
         <Literal datatypeIRI="&rdfs;Literal">WaterInItsOriginalState</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterInItsOriginalState</IRI>
+        <IRI>&wfetop;WaterInItsOriginalState</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption</IRI>
+        <IRI>&wfetop;WaterIntendedForHumanConsumption</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 2 of EU Directive 98/83/EC defines the consitutive terms &apos;water intended for human consumption&apos; - 
 
 (a) all water either in its original state or after treatment, intended for drinking, cooking, food preparation or other domestic purposes, regardless of its origin and whether it is supplied from a distribution network, from a tanker, or in bottles or containers;
@@ -1587,51 +1589,51 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption</IRI>
+        <IRI>&wfetop;WaterIntendedForHumanConsumption</IRI>
         <Literal datatypeIRI="&rdfs;Literal">WaterIntendedForHumanConsumption</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption</IRI>
+        <IRI>&wfetop;WaterIntendedForHumanConsumption</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstance</IRI>
+        <IRI>&wfetop;WaterSubstance</IRI>
         <Literal datatypeIRI="&rdfs;Literal">&apos;Water substance&apos; is a type of water with many usages. For example, it itself can be used as a food, as well as it can be used as a raw material in the food production.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstance</IRI>
+        <IRI>&wfetop;WaterSubstance</IRI>
         <Literal datatypeIRI="&rdfs;Literal">WaterSubstance</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstance</IRI>
+        <IRI>&wfetop;WaterSubstance</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstanceInFood</IRI>
+        <IRI>&wfetop;WaterSubstanceInFood</IRI>
         <Literal datatypeIRI="&rdfs;Literal">&apos;Water substances in food&apos; is also a kind of &apos;water intended for human consumption&apos; as well as it is a kind of &apos;water substance&apos; too.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstanceInFood</IRI>
+        <IRI>&wfetop;WaterSubstanceInFood</IRI>
         <Literal datatypeIRI="&rdfs;Literal">WaterSubstanceInFood</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstanceInFood</IRI>
+        <IRI>&wfetop;WaterSubstanceInFood</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#canBe</IRI>
+        <IRI>&wfetop;canBe</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 2 of EU Regulation 178/2002/EC mentions that food can be any of these forms - processed, partially process and/or unprocessed by mentioning following legislative text -  
 
 “....whether processed, partially processed or unprocessed, intended to be, or rea-sonably expected to be ingested by humans....”
@@ -1642,17 +1644,17 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#canBe</IRI>
+        <IRI>&wfetop;canBe</IRI>
         <Literal datatypeIRI="&rdfs;Literal">canBe</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#canBe</IRI>
+        <IRI>&wfetop;canBe</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#intentionallyIncorporatedInto</IRI>
+        <IRI>&wfetop;intentionallyIncorporatedInto</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 2 of EU Regulation 178/2002/EC prescribes that food also includes -    
 
 “.....any substance, including water, intentionally incorporated into the food......”
@@ -1663,34 +1665,34 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#intentionallyIncorporatedInto</IRI>
+        <IRI>&wfetop;intentionallyIncorporatedInto</IRI>
         <Literal datatypeIRI="&rdfs;Literal">intentionallyIncorporatedInto</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#intentionallyIncorporatedInto</IRI>
+        <IRI>&wfetop;intentionallyIncorporatedInto</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isAssociatedWith</IRI>
+        <IRI>&wfetop;isAssociatedWith</IRI>
         <Literal datatypeIRI="&rdfs;Literal">The EU Regulation 178/2002/EC mentions about the water that is after the point of compliance referring Article 6 of EU Directive 98/83/EC , which is particularly designed for describing ‘QualityOfWater’ using the legal phrase ‘PointOfCompliance’. Therefore, it is very clear that by referring the EU Directive, it implicitly established the associated relationship between these two terms. In this ontology, the object property ‘isAssociatedWith’ is used in order to express this implicit relationship.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isAssociatedWith</IRI>
+        <IRI>&wfetop;isAssociatedWith</IRI>
         <Literal datatypeIRI="&rdfs;Literal">isAssociatedWith</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isAssociatedWith</IRI>
+        <IRI>&wfetop;isAssociatedWith</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isPreparedForPlacingOn</IRI>
+        <IRI>&wfetop;isPreparedForPlacingOn</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 2 of EU Regulation 178/2002/EC states that if the live animal is prepared for placing in the market to be sold in order to be consumed by human can be addressed as a food, otherwise not. Hence, the object property ‘isPreparedForPlacingOn’ plays an important role in order to recognize which live animal is legally considered as food. The specific legislative text is as follow -  
 
 “....live animals unless they are prepared for placing on the market for human consumption....”
@@ -1701,17 +1703,17 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isPreparedForPlacingOn</IRI>
+        <IRI>&wfetop;isPreparedForPlacingOn</IRI>
         <Literal datatypeIRI="&rdfs;Literal">isPreparedForPlacingOn</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isPreparedForPlacingOn</IRI>
+        <IRI>&wfetop;isPreparedForPlacingOn</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isRequiredBy</IRI>
+        <IRI>&wfetop;isRequiredBy</IRI>
         <Literal datatypeIRI="&rdfs;Literal">In according to the Article 2 of EU Regulation 178/2002/EC, in order to qualify water as a food, it is required that the water must have the qualities as described in law by mentioning the following legislative texts -
 
 “.....It includes water after the point of compliance......”
@@ -1722,36 +1724,36 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isRequiredBy</IRI>
+        <IRI>&wfetop;isRequiredBy</IRI>
         <Literal datatypeIRI="&rdfs;Literal">isRequiredBy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isRequiredBy</IRI>
+        <IRI>&wfetop;isRequiredBy</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#mustMaintain</IRI>
+        <IRI>&wfetop;mustMaintain</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 2 of EU Regulation 178/2002/EC specifies that water and/or food substance and/or any substance or product used in the food preparation must maintain certain level of qualities prescribed by the respective laws. Therefore, the object property ‘mustMaintain’ is used to create functional relationships between following terms – ‘Product’, ‘WaterAfterCompliace’, ‘Quality’ and ‘QualityOfWater’.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#mustMaintain</IRI>
+        <IRI>&wfetop;mustMaintain</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallBeReasonably</IRI>
+        <IRI>&wfetop;shallBeReasonably</IRI>
         <Literal datatypeIRI="&rdfs;Literal">The food shall be reasonably expected to be ingested by human, otherwise it will not be considered as food in the eyes of EU law. In order to design ontology of this legal expression, the object property ‘shallBeReasonably’ is used to crate functional and asymmetric relationship between following terms – ‘FoodUnderEURegulation’ and ‘ExpectedToBeIngested’.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447921778558&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallBeReasonably</IRI>
+        <IRI>&wfetop;shallBeReasonably</IRI>
         <Literal datatypeIRI="&rdfs;Literal">shallBeReasonably</Literal>
     </AnnotationAssertion>
 </Ontology>

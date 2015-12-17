@@ -22,6 +22,9 @@
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+     <Prefix name="wfetop" IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#"/>
+
+    
     <Import>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses</Import>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
@@ -90,546 +93,546 @@ Please, for more, see at http://www.last-jd.eu/</Literal>
         <Literal datatypeIRI="&rdfs;Literal">This ontology is distributed under a Creative Commons Attribution License - http://creativecommons.org/licenses/by/3.0</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#CompetentNationalAuthoritiesInWaterDomain"/>
+        <Class IRI="&wfetop;CompetentNationalAuthoritiesInWaterDomain"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#CookingActivity"/>
+        <Class IRI="&wfetop;CookingActivity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#DistributionOfWater"/>
+        <Class IRI="&wfetop;DistributionOfWater"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#DomesticPurpose"/>
+        <Class IRI="&wfetop;DomesticPurpose"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Drinking"/>
+        <Class IRI="&wfetop;Drinking"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodPreparation"/>
+        <Class IRI="&wfetop;FoodPreparation"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProduct"/>
+        <Class IRI="&wfetop;FoodProduct"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductWhereWaterIsUsed"/>
+        <Class IRI="&wfetop;FoodProductWhereWaterIsUsed"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity"/>
+        <Class IRI="&wfetop;FoodProductionActivity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodSubstance"/>
+        <Class IRI="&wfetop;FoodSubstance"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FromDistributionNetwork"/>
+        <Class IRI="&wfetop;FromDistributionNetwork"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FromTanker"/>
+        <Class IRI="&wfetop;FromTanker"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumption"/>
+        <Class IRI="&wfetop;HumanConsumption"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumptionActivity"/>
+        <Class IRI="&wfetop;HumanConsumptionActivity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#InBottle"/>
+        <Class IRI="&wfetop;InBottle"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#InContainer"/>
+        <Class IRI="&wfetop;InContainer"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ManufactureOfFoodProduction"/>
+        <Class IRI="&wfetop;ManufactureOfFoodProduction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#MarketingOfFoodProduction"/>
+        <Class IRI="&wfetop;MarketingOfFoodProduction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PreservationOfFoodProduction"/>
+        <Class IRI="&wfetop;PreservationOfFoodProduction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ProcessingOfFoodProduction"/>
+        <Class IRI="&wfetop;ProcessingOfFoodProduction"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#QualityOfWater"/>
+        <Class IRI="&wfetop;QualityOfWater"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WasteWater"/>
+        <Class IRI="&wfetop;WasteWater"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Water"/>
+        <Class IRI="&wfetop;Water"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterCompliance"/>
+        <Class IRI="&wfetop;WaterAfterCompliance"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterTreatment"/>
+        <Class IRI="&wfetop;WaterAfterTreatment"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterBeforeTreatment"/>
+        <Class IRI="&wfetop;WaterBeforeTreatment"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterInItsOriginalState"/>
+        <Class IRI="&wfetop;WaterInItsOriginalState"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+        <Class IRI="&wfetop;WaterIntendedForHumanConsumption"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstance"/>
+        <Class IRI="&wfetop;WaterSubstance"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstanceInFood"/>
+        <Class IRI="&wfetop;WaterSubstanceInFood"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WholesomenessOfFoodstuff"/>
+        <Class IRI="&wfetop;WholesomenessOfFoodstuff"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#consumes"/>
+        <ObjectProperty IRI="&wfetop;consumes"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isConsumedBy"/>
+        <ObjectProperty IRI="&wfetop;isConsumedBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isCoordinatedBy"/>
+        <ObjectProperty IRI="&wfetop;isCoordinatedBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isIntendedFor"/>
+        <ObjectProperty IRI="&wfetop;isIntendedFor"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isSuppliedFrom"/>
+        <ObjectProperty IRI="&wfetop;isSuppliedFrom"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isUsedIn"/>
+        <ObjectProperty IRI="&wfetop;isUsedIn"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallBeUsedFor"/>
+        <ObjectProperty IRI="&wfetop;shallBeUsedFor"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallHave"/>
+        <ObjectProperty IRI="&wfetop;shallHave"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotAffect"/>
+        <ObjectProperty IRI="&wfetop;shallNotAffect"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotBeUsedFor"/>
+        <ObjectProperty IRI="&wfetop;shallNotBeUsedFor"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotHave"/>
+        <ObjectProperty IRI="&wfetop;shallNotHave"/>
     </Declaration>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#CompetentNationalAuthoritiesInWaterDomain"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Authority"/>
+        <Class IRI="&wfetop;CompetentNationalAuthoritiesInWaterDomain"/>
+        <Class IRI="&wfetop;Authority"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#CookingActivity"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumptionActivity"/>
+        <Class IRI="&wfetop;CookingActivity"/>
+        <Class IRI="&wfetop;HumanConsumptionActivity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#DistributionOfWater"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Activity"/>
+        <Class IRI="&wfetop;DistributionOfWater"/>
+        <Class IRI="&wfetop;Activity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#DomesticPurpose"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumptionActivity"/>
+        <Class IRI="&wfetop;DomesticPurpose"/>
+        <Class IRI="&wfetop;HumanConsumptionActivity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Drinking"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumptionActivity"/>
+        <Class IRI="&wfetop;Drinking"/>
+        <Class IRI="&wfetop;HumanConsumptionActivity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodPreparation"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumptionActivity"/>
+        <Class IRI="&wfetop;FoodPreparation"/>
+        <Class IRI="&wfetop;HumanConsumptionActivity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProduct"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Product"/>
+        <Class IRI="&wfetop;FoodProduct"/>
+        <Class IRI="&wfetop;Product"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProduct"/>
+        <Class IRI="&wfetop;FoodProduct"/>
         <ObjectAllValuesFrom>
-            <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isConsumedBy"/>
-            <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Human"/>
+            <ObjectProperty IRI="&wfetop;isConsumedBy"/>
+            <Class IRI="&wfetop;Human"/>
         </ObjectAllValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductWhereWaterIsUsed"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProduct"/>
+        <Class IRI="&wfetop;FoodProductWhereWaterIsUsed"/>
+        <Class IRI="&wfetop;FoodProduct"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductWhereWaterIsUsed"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+        <Class IRI="&wfetop;FoodProductWhereWaterIsUsed"/>
+        <Class IRI="&wfetop;WaterIntendedForHumanConsumption"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ProductionActivity"/>
+        <Class IRI="&wfetop;FoodProductionActivity"/>
+        <Class IRI="&wfetop;ProductionActivity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodSubstance"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProduct"/>
+        <Class IRI="&wfetop;FoodSubstance"/>
+        <Class IRI="&wfetop;FoodProduct"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodSubstance"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Substance"/>
+        <Class IRI="&wfetop;FoodSubstance"/>
+        <Class IRI="&wfetop;Substance"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FromDistributionNetwork"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#DistributionOfWater"/>
+        <Class IRI="&wfetop;FromDistributionNetwork"/>
+        <Class IRI="&wfetop;DistributionOfWater"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FromTanker"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#DistributionOfWater"/>
+        <Class IRI="&wfetop;FromTanker"/>
+        <Class IRI="&wfetop;DistributionOfWater"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Human"/>
+        <Class IRI="&wfetop;Human"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#consumes"/>
-            <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+            <ObjectProperty IRI="&wfetop;consumes"/>
+            <Class IRI="&wfetop;WaterIntendedForHumanConsumption"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumption"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ConsumptionActivity"/>
+        <Class IRI="&wfetop;HumanConsumption"/>
+        <Class IRI="&wfetop;ConsumptionActivity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumptionActivity"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ConsumptionActivity"/>
+        <Class IRI="&wfetop;HumanConsumptionActivity"/>
+        <Class IRI="&wfetop;ConsumptionActivity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#InBottle"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#DistributionOfWater"/>
+        <Class IRI="&wfetop;InBottle"/>
+        <Class IRI="&wfetop;DistributionOfWater"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#InContainer"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#DistributionOfWater"/>
+        <Class IRI="&wfetop;InContainer"/>
+        <Class IRI="&wfetop;DistributionOfWater"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ManufactureOfFoodProduction"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity"/>
+        <Class IRI="&wfetop;ManufactureOfFoodProduction"/>
+        <Class IRI="&wfetop;FoodProductionActivity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#MarketingOfFoodProduction"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity"/>
+        <Class IRI="&wfetop;MarketingOfFoodProduction"/>
+        <Class IRI="&wfetop;FoodProductionActivity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PreservationOfFoodProduction"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity"/>
+        <Class IRI="&wfetop;PreservationOfFoodProduction"/>
+        <Class IRI="&wfetop;FoodProductionActivity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ProcessingOfFoodProduction"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity"/>
+        <Class IRI="&wfetop;ProcessingOfFoodProduction"/>
+        <Class IRI="&wfetop;FoodProductionActivity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#QualityOfWater"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Quality"/>
+        <Class IRI="&wfetop;QualityOfWater"/>
+        <Class IRI="&wfetop;Quality"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#QualityOfWater"/>
+        <Class IRI="&wfetop;QualityOfWater"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotAffect"/>
-            <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WholesomenessOfFoodstuff"/>
+            <ObjectProperty IRI="&wfetop;shallNotAffect"/>
+            <Class IRI="&wfetop;WholesomenessOfFoodstuff"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WasteWater"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Water"/>
+        <Class IRI="&wfetop;WasteWater"/>
+        <Class IRI="&wfetop;Water"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WasteWater"/>
+        <Class IRI="&wfetop;WasteWater"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotBeUsedFor"/>
+            <ObjectProperty IRI="&wfetop;shallNotBeUsedFor"/>
             <ObjectIntersectionOf>
-                <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ConsumptionActivity"/>
-                <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity"/>
+                <Class IRI="&wfetop;ConsumptionActivity"/>
+                <Class IRI="&wfetop;FoodProductionActivity"/>
             </ObjectIntersectionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Water"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Substance"/>
+        <Class IRI="&wfetop;Water"/>
+        <Class IRI="&wfetop;Substance"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterCompliance"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Water"/>
+        <Class IRI="&wfetop;WaterAfterCompliance"/>
+        <Class IRI="&wfetop;Water"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterCompliance"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+        <Class IRI="&wfetop;WaterAfterCompliance"/>
+        <Class IRI="&wfetop;WaterIntendedForHumanConsumption"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterTreatment"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterCompliance"/>
+        <Class IRI="&wfetop;WaterAfterTreatment"/>
+        <Class IRI="&wfetop;WaterAfterCompliance"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterBeforeTreatment"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Water"/>
+        <Class IRI="&wfetop;WaterBeforeTreatment"/>
+        <Class IRI="&wfetop;Water"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterInItsOriginalState"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterCompliance"/>
+        <Class IRI="&wfetop;WaterInItsOriginalState"/>
+        <Class IRI="&wfetop;WaterAfterCompliance"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ConstitutiveRule"/>
+        <Class IRI="&wfetop;WaterIntendedForHumanConsumption"/>
+        <Class IRI="&wfetop;ConstitutiveRule"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+        <Class IRI="&wfetop;WaterIntendedForHumanConsumption"/>
         <ObjectIntersectionOf>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isIntendedFor"/>
-                <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumptionActivity"/>
+                <ObjectProperty IRI="&wfetop;isIntendedFor"/>
+                <Class IRI="&wfetop;HumanConsumptionActivity"/>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isSuppliedFrom"/>
-                <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#DistributionOfWater"/>
+                <ObjectProperty IRI="&wfetop;isSuppliedFrom"/>
+                <Class IRI="&wfetop;DistributionOfWater"/>
             </ObjectSomeValuesFrom>
             <ObjectAllValuesFrom>
-                <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isCoordinatedBy"/>
-                <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#CompetentNationalAuthoritiesInWaterDomain"/>
+                <ObjectProperty IRI="&wfetop;isCoordinatedBy"/>
+                <Class IRI="&wfetop;CompetentNationalAuthoritiesInWaterDomain"/>
             </ObjectAllValuesFrom>
         </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+        <Class IRI="&wfetop;WaterIntendedForHumanConsumption"/>
         <ObjectIntersectionOf>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallBeUsedFor"/>
-                <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity"/>
+                <ObjectProperty IRI="&wfetop;shallBeUsedFor"/>
+                <Class IRI="&wfetop;FoodProductionActivity"/>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallHave"/>
-                <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#QualityOfWater"/>
+                <ObjectProperty IRI="&wfetop;shallHave"/>
+                <Class IRI="&wfetop;QualityOfWater"/>
             </ObjectSomeValuesFrom>
             <ObjectSomeValuesFrom>
-                <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotHave"/>
-                <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WasteWater"/>
+                <ObjectProperty IRI="&wfetop;shallNotHave"/>
+                <Class IRI="&wfetop;WasteWater"/>
             </ObjectSomeValuesFrom>
         </ObjectIntersectionOf>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+        <Class IRI="&wfetop;WaterIntendedForHumanConsumption"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isUsedIn"/>
+            <ObjectProperty IRI="&wfetop;isUsedIn"/>
             <ObjectUnionOf>
-                <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProduct"/>
-                <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity"/>
+                <Class IRI="&wfetop;FoodProduct"/>
+                <Class IRI="&wfetop;FoodProductionActivity"/>
             </ObjectUnionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstance"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Water"/>
+        <Class IRI="&wfetop;WaterSubstance"/>
+        <Class IRI="&wfetop;Water"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstanceInFood"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+        <Class IRI="&wfetop;WaterSubstanceInFood"/>
+        <Class IRI="&wfetop;WaterIntendedForHumanConsumption"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstanceInFood"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstance"/>
+        <Class IRI="&wfetop;WaterSubstanceInFood"/>
+        <Class IRI="&wfetop;WaterSubstance"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WholesomenessOfFoodstuff"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Quality"/>
+        <Class IRI="&wfetop;WholesomenessOfFoodstuff"/>
+        <Class IRI="&wfetop;Quality"/>
     </SubClassOf>
     <DisjointClasses>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FromDistributionNetwork"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FromTanker"/>
+        <Class IRI="&wfetop;FromDistributionNetwork"/>
+        <Class IRI="&wfetop;FromTanker"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FromDistributionNetwork"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#InBottle"/>
+        <Class IRI="&wfetop;FromDistributionNetwork"/>
+        <Class IRI="&wfetop;InBottle"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FromDistributionNetwork"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#InContainer"/>
+        <Class IRI="&wfetop;FromDistributionNetwork"/>
+        <Class IRI="&wfetop;InContainer"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FromTanker"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#InBottle"/>
+        <Class IRI="&wfetop;FromTanker"/>
+        <Class IRI="&wfetop;InBottle"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FromTanker"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#InContainer"/>
+        <Class IRI="&wfetop;FromTanker"/>
+        <Class IRI="&wfetop;InContainer"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#InBottle"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#InContainer"/>
+        <Class IRI="&wfetop;InBottle"/>
+        <Class IRI="&wfetop;InContainer"/>
     </DisjointClasses>
     <DisjointClasses>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterTreatment"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterBeforeTreatment"/>
+        <Class IRI="&wfetop;WaterAfterTreatment"/>
+        <Class IRI="&wfetop;WaterBeforeTreatment"/>
     </DisjointClasses>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isSuppliedFrom"/>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isCoordinatedBy"/>
+        <ObjectProperty IRI="&wfetop;isSuppliedFrom"/>
+        <ObjectProperty IRI="&wfetop;isCoordinatedBy"/>
     </SubObjectPropertyOf>
     <SubObjectPropertyOf>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isUsedIn"/>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isCoordinatedBy"/>
+        <ObjectProperty IRI="&wfetop;isUsedIn"/>
+        <ObjectProperty IRI="&wfetop;isCoordinatedBy"/>
     </SubObjectPropertyOf>
     <InverseObjectProperties>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallBeUsedFor"/>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotBeUsedFor"/>
+        <ObjectProperty IRI="&wfetop;shallBeUsedFor"/>
+        <ObjectProperty IRI="&wfetop;shallNotBeUsedFor"/>
     </InverseObjectProperties>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#consumes"/>
+        <ObjectProperty IRI="&wfetop;consumes"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isConsumedBy"/>
+        <ObjectProperty IRI="&wfetop;isConsumedBy"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isCoordinatedBy"/>
+        <ObjectProperty IRI="&wfetop;isCoordinatedBy"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isIntendedFor"/>
+        <ObjectProperty IRI="&wfetop;isIntendedFor"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isSuppliedFrom"/>
+        <ObjectProperty IRI="&wfetop;isSuppliedFrom"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isUsedIn"/>
+        <ObjectProperty IRI="&wfetop;isUsedIn"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallBeUsedFor"/>
+        <ObjectProperty IRI="&wfetop;shallBeUsedFor"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallHave"/>
+        <ObjectProperty IRI="&wfetop;shallHave"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotAffect"/>
+        <ObjectProperty IRI="&wfetop;shallNotAffect"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotBeUsedFor"/>
+        <ObjectProperty IRI="&wfetop;shallNotBeUsedFor"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotHave"/>
+        <ObjectProperty IRI="&wfetop;shallNotHave"/>
     </FunctionalObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#consumes"/>
+        <ObjectProperty IRI="&wfetop;consumes"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isCoordinatedBy"/>
+        <ObjectProperty IRI="&wfetop;isCoordinatedBy"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isIntendedFor"/>
+        <ObjectProperty IRI="&wfetop;isIntendedFor"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isSuppliedFrom"/>
+        <ObjectProperty IRI="&wfetop;isSuppliedFrom"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isUsedIn"/>
+        <ObjectProperty IRI="&wfetop;isUsedIn"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallBeUsedFor"/>
+        <ObjectProperty IRI="&wfetop;shallBeUsedFor"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallHave"/>
+        <ObjectProperty IRI="&wfetop;shallHave"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotAffect"/>
+        <ObjectProperty IRI="&wfetop;shallNotAffect"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotBeUsedFor"/>
+        <ObjectProperty IRI="&wfetop;shallNotBeUsedFor"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotHave"/>
+        <ObjectProperty IRI="&wfetop;shallNotHave"/>
     </AsymmetricObjectProperty>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#consumes"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Human"/>
+        <ObjectProperty IRI="&wfetop;consumes"/>
+        <Class IRI="&wfetop;Human"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isConsumedBy"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProduct"/>
+        <ObjectProperty IRI="&wfetop;isConsumedBy"/>
+        <Class IRI="&wfetop;FoodProduct"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isCoordinatedBy"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+        <ObjectProperty IRI="&wfetop;isCoordinatedBy"/>
+        <Class IRI="&wfetop;WaterIntendedForHumanConsumption"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isIntendedFor"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+        <ObjectProperty IRI="&wfetop;isIntendedFor"/>
+        <Class IRI="&wfetop;WaterIntendedForHumanConsumption"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isSuppliedFrom"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+        <ObjectProperty IRI="&wfetop;isSuppliedFrom"/>
+        <Class IRI="&wfetop;WaterIntendedForHumanConsumption"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isUsedIn"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+        <ObjectProperty IRI="&wfetop;isUsedIn"/>
+        <Class IRI="&wfetop;WaterIntendedForHumanConsumption"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallBeUsedFor"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+        <ObjectProperty IRI="&wfetop;shallBeUsedFor"/>
+        <Class IRI="&wfetop;WaterIntendedForHumanConsumption"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallHave"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+        <ObjectProperty IRI="&wfetop;shallHave"/>
+        <Class IRI="&wfetop;WaterIntendedForHumanConsumption"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotAffect"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#QualityOfWater"/>
+        <ObjectProperty IRI="&wfetop;shallNotAffect"/>
+        <Class IRI="&wfetop;QualityOfWater"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotBeUsedFor"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WasteWater"/>
+        <ObjectProperty IRI="&wfetop;shallNotBeUsedFor"/>
+        <Class IRI="&wfetop;WasteWater"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotHave"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+        <ObjectProperty IRI="&wfetop;shallNotHave"/>
+        <Class IRI="&wfetop;WaterIntendedForHumanConsumption"/>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#consumes"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption"/>
+        <ObjectProperty IRI="&wfetop;consumes"/>
+        <Class IRI="&wfetop;WaterIntendedForHumanConsumption"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isConsumedBy"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Human"/>
+        <ObjectProperty IRI="&wfetop;isConsumedBy"/>
+        <Class IRI="&wfetop;Human"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isCoordinatedBy"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#CompetentNationalAuthoritiesInWaterDomain"/>
+        <ObjectProperty IRI="&wfetop;isCoordinatedBy"/>
+        <Class IRI="&wfetop;CompetentNationalAuthoritiesInWaterDomain"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isIntendedFor"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumptionActivity"/>
+        <ObjectProperty IRI="&wfetop;isIntendedFor"/>
+        <Class IRI="&wfetop;HumanConsumptionActivity"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isSuppliedFrom"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#DistributionOfWater"/>
+        <ObjectProperty IRI="&wfetop;isSuppliedFrom"/>
+        <Class IRI="&wfetop;DistributionOfWater"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isUsedIn"/>
+        <ObjectProperty IRI="&wfetop;isUsedIn"/>
         <ObjectUnionOf>
-            <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProduct"/>
-            <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity"/>
+            <Class IRI="&wfetop;FoodProduct"/>
+            <Class IRI="&wfetop;FoodProductionActivity"/>
         </ObjectUnionOf>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallBeUsedFor"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity"/>
+        <ObjectProperty IRI="&wfetop;shallBeUsedFor"/>
+        <Class IRI="&wfetop;FoodProductionActivity"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallHave"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#QualityOfWater"/>
+        <ObjectProperty IRI="&wfetop;shallHave"/>
+        <Class IRI="&wfetop;QualityOfWater"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotAffect"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WholesomenessOfFoodstuff"/>
+        <ObjectProperty IRI="&wfetop;shallNotAffect"/>
+        <Class IRI="&wfetop;WholesomenessOfFoodstuff"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotBeUsedFor"/>
+        <ObjectProperty IRI="&wfetop;shallNotBeUsedFor"/>
         <ObjectUnionOf>
-            <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ConsumptionActivity"/>
-            <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity"/>
+            <Class IRI="&wfetop;ConsumptionActivity"/>
+            <Class IRI="&wfetop;FoodProductionActivity"/>
         </ObjectUnionOf>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotHave"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WasteWater"/>
+        <ObjectProperty IRI="&wfetop;shallNotHave"/>
+        <Class IRI="&wfetop;WasteWater"/>
     </ObjectPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#CompetentNationalAuthoritiesInWaterDomain</IRI>
+        <IRI>&wfetop;CompetentNationalAuthoritiesInWaterDomain</IRI>
         <Literal datatypeIRI="&rdfs;Literal">UN defines national competent authorities are empowered to enforce as well as to regulate national controls of certain domains through their procedural laws within their jurisdiction . This is only sub-class of the top-class ‘Authority’. In EU system, Article 2(19) of Regulation (EC) no 1946/2003 , mentions that &quot;competent authority&quot; means a competent authority designated by a Party to the Protocol, or the relevant equivalent body of a non-Party, which is responsible for performing the administrative functions required by the Protocol, or equivalent functions in the case of a non-Party, and is authorised to act on its behalf with respect to those functions”. However, Article 2 (1) of EU Directive 98/83/EC says that competent national authority of water domains will check the quality of water and water’s affect in the wholesomeness of foodstuffs as mentioned in the respective legislations.
 
 For examples, UNODC (United Nations Office on Druges and Crime) provides lists of the competent national authorities empowered to issue certificates and authorizations for the import and export of narcotic drugs and psychotropic substances, and to regulate or enforce national controls over precursors and essential chemicals. The legal bases for designating these authorities are the Single Convention on Narcotic Drugs of 1961 (article 18), the Convention on Psychotropic Substances of 1971 (article 16), and the United Nations Convention against Illicit Traffic in Narcotic Drugs and Psychotropic Substances of 1988 (article 12).
@@ -638,224 +641,224 @@ seeAlso - http://www.unodc.org/unodc/en/legal-tools/directories-of-competent-nat
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#CompetentNationalAuthoritiesInWaterDomain</IRI>
+        <IRI>&wfetop;CompetentNationalAuthoritiesInWaterDomain</IRI>
         <Literal datatypeIRI="&rdfs;Literal">CompetentNationalAuthoritiesInWaterDomain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#CompetentNationalAuthoritiesInWaterDomain</IRI>
+        <IRI>&wfetop;CompetentNationalAuthoritiesInWaterDomain</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://www.unodc.org/unodc/en/legal-tools/directories-of-competent-national-authorities.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#CookingActivity</IRI>
+        <IRI>&wfetop;CookingActivity</IRI>
         <Literal datatypeIRI="&rdfs;Literal">EU Directive 98/83/EC did not fine the term ‘Cooking’, but just mentioned it as a type of ‘HumanConsumptionActivity’. However, Oxford dictionary defines it as an human consumption activity for preparing food by combing, heating and/or mixing ingredients where water is very likely to be used. In addition, Annex of EU Regulation No 451/2008  mentioned that a list of products used for cooking and legally addressed cooking as an activity.
 
 seeAlso - http://www.oxforddictionaries.com/definition/english/cooking</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#CookingActivity</IRI>
+        <IRI>&wfetop;CookingActivity</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Cooking</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#CookingActivity</IRI>
+        <IRI>&wfetop;CookingActivity</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://www.oxforddictionaries.com/definition/english/cooking</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#DistributionOfWater</IRI>
+        <IRI>&wfetop;DistributionOfWater</IRI>
         <Literal datatypeIRI="&rdfs;Literal">EPA  defines that “water distribution system is based on a set of collective activities distributing water to the targeted locations. It consists of an interconnected series of pipes, storage facilities, and components that convey drinking water and meeting fire protection and domestic needs for cities, homes, schools, hospitals, businesses, industries and other facilities”. However, Article 2 (2) of EU Directive 98/83/EC  defines ‘domestic distribution system’ as a part of ‘DistributionOfWater’ that intended for only human consumption. In addition, Article 2(1) of the same legislation defines that ‘DistributionOfWater’ can be from four different ways – a) from distribution network, b) from tanker, c) in bottle, and d) in container. Therefore, these four entities are used as sub-classes of the entity ‘DistributionOfWater’.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#DistributionOfWater</IRI>
+        <IRI>&wfetop;DistributionOfWater</IRI>
         <Literal datatypeIRI="&rdfs;Literal">DistributionOfWater</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#DistributionOfWater</IRI>
+        <IRI>&wfetop;DistributionOfWater</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#DistributionOfWater</IRI>
+        <IRI>&wfetop;DistributionOfWater</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://water.epa.gov/lawsregs/rulesregs/sdwa/tcr/distributionsystems.cfm</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#DomesticPurpose</IRI>
+        <IRI>&wfetop;DomesticPurpose</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 2 (1) of EU Directive 98/83/EC mentions that ‘DomesticPurpose’ is a type of ‘HumanConsumptionActivity’ where water with regulative quality must be used as it is directed in the same legislation. Few examples of such activity can be washing clothes, bathing etc.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#DomesticPurpose</IRI>
+        <IRI>&wfetop;DomesticPurpose</IRI>
         <Literal datatypeIRI="&rdfs;Literal">DomesticActivity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#DomesticPurpose</IRI>
+        <IRI>&wfetop;DomesticPurpose</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Drinking</IRI>
+        <IRI>&wfetop;Drinking</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Oxford dictionary defines it as human consumption activity that deals with taking liquid into the mouth and swallows.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Drinking</IRI>
+        <IRI>&wfetop;Drinking</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Drinking</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Drinking</IRI>
+        <IRI>&wfetop;Drinking</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Drinking</IRI>
+        <IRI>&wfetop;Drinking</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://www.oxforddictionaries.com/definition/english/drink?q=Drinking</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodPreparation</IRI>
+        <IRI>&wfetop;FoodPreparation</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Wikipedia  mentions it as a type of human consumption activity that prepares food for eating, which is not limited to cooking rather it requires to perform a certain type of activities such as selection, measurements and combinations of various food ingredients in order to acquire desired results.
 
 seeAlso - https://en.wikipedia.org/wiki/Outline_of_food_preparation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodPreparation</IRI>
+        <IRI>&wfetop;FoodPreparation</IRI>
         <Literal datatypeIRI="&rdfs;Literal">FoodPreparation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodPreparation</IRI>
+        <IRI>&wfetop;FoodPreparation</IRI>
         <Literal datatypeIRI="&xsd;anyURI">https://en.wikipedia.org/wiki/Outline_of_food_preparation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProduct</IRI>
+        <IRI>&wfetop;FoodProduct</IRI>
         <Literal datatypeIRI="&rdfs;Literal">USLegal  defines when food is ready for sale is considered as food product. ‘FoodProduct’ is a subclass of top-class ‘Product’. Even though, the definition of the term ‘FoodProduct’ does not make clear of its relationship with the terms like ‘Water’, ‘WasteWater’, ‘WaterIntendedForHumanConsumption’ etc. However, in according to the Article 2 (1) of EU Directive 98/83/EC, food product is a type of product where water is likely to be used.
 
 seeAlso - http://definitions.uslegal.com/f/food-product/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProduct</IRI>
+        <IRI>&wfetop;FoodProduct</IRI>
         <Literal datatypeIRI="&rdfs;Literal">FoodProduct</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProduct</IRI>
+        <IRI>&wfetop;FoodProduct</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://definitions.uslegal.com/f/food-product/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductWhereWaterIsUsed</IRI>
+        <IRI>&wfetop;FoodProductWhereWaterIsUsed</IRI>
         <Literal datatypeIRI="&rdfs;Literal">&apos;Food product where water is used&apos; is a kind of &apos;food product&apos;.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductWhereWaterIsUsed</IRI>
+        <IRI>&wfetop;FoodProductWhereWaterIsUsed</IRI>
         <Literal datatypeIRI="&rdfs;Literal">FoodProductWhereWaterIsUsed</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductWhereWaterIsUsed</IRI>
+        <IRI>&wfetop;FoodProductWhereWaterIsUsed</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity</IRI>
+        <IRI>&wfetop;FoodProductionActivity</IRI>
         <Literal datatypeIRI="&rdfs;Literal">This is a sub-class of the top-class ‘ProductionActivity’. In according to the Article 2 (1) of EU Directive 98/83/EC, ‘FoodProductionActivity’ is a type of ‘Activity’ where water is used, which must maintain certain level of water quality equivalent to ‘water intended for human consumption’. CDC   defines ‘FoodProductionActivity ’ that is consisted with a series of activities for transforming raw materials into finished food products.
 
 seeAlso - http://www.cdc.gov/foodsafety/outbreaks/investigating-outbreaks/production-chain.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity</IRI>
+        <IRI>&wfetop;FoodProductionActivity</IRI>
         <Literal datatypeIRI="&rdfs;Literal">FoodProductionActivity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity</IRI>
+        <IRI>&wfetop;FoodProductionActivity</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://blogs.cdc.gov/global/tag/food-production/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodProductionActivity</IRI>
+        <IRI>&wfetop;FoodProductionActivity</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://www.cdc.gov/foodsafety/outbreaks/investigating-outbreaks/production-chain.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodSubstance</IRI>
+        <IRI>&wfetop;FoodSubstance</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 2 (1) of EU Directive 98/83/EC mentions that, on one hand, food product where water is used must not affect the wholesomeness of food. On the other hand, water that is used in food must maintain the quality as prescribed in the EU Directives and equivalent to ‘water intended for human consumption’. In addition, Regulation (EC) no 1925/2006  indicated that ‘FoodSubstance’ itself can be considered as ‘FoodProduct’ such as vitamin and/or some raw food materials. It is noteworthy to mention that &apos;Food substance&apos; itself can be a type of &apos;food product&apos;.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447874692361&amp;uri=CELEX:32006R1925</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodSubstance</IRI>
+        <IRI>&wfetop;FoodSubstance</IRI>
         <Literal datatypeIRI="&rdfs;Literal">FoodSubstance</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodSubstance</IRI>
+        <IRI>&wfetop;FoodSubstance</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FoodSubstance</IRI>
+        <IRI>&wfetop;FoodSubstance</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447874692361&amp;uri=CELEX:32006R1925</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FromDistributionNetwork</IRI>
+        <IRI>&wfetop;FromDistributionNetwork</IRI>
         <Literal datatypeIRI="&rdfs;Literal">EU Directive 2000/60/EC  defines that water distributed from the water distribution network is a water service activity. More precisely, the business dictionary defines it as a chain of distribution activities from the suppliers to the consumer using competing water distribution system. However, the term ‘FromDistributionNetwork’ is disjointed with following terms – ‘FromTanker’, ‘InContainer’, and ‘InBottle’.
 
 seeAlso - http://www.businessdictionary.com/definition/distribution-network.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FromDistributionNetwork</IRI>
+        <IRI>&wfetop;FromDistributionNetwork</IRI>
         <Literal datatypeIRI="&rdfs;Literal">FromDistributionNetwork</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FromDistributionNetwork</IRI>
+        <IRI>&wfetop;FromDistributionNetwork</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://www.businessdictionary.com/definition/distribution-network.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FromTanker</IRI>
+        <IRI>&wfetop;FromTanker</IRI>
         <Literal datatypeIRI="&rdfs;Literal">The dictionary  defines it as “a ship, lorry, or aeroplane designed to carry liquid in bulk, such as water, for the purpose of distributing water.”
 
 seeAlso - http://dictionary.reference.com/browse/tanker</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FromTanker</IRI>
+        <IRI>&wfetop;FromTanker</IRI>
         <Literal datatypeIRI="&rdfs;Literal">FromTanker</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#FromTanker</IRI>
+        <IRI>&wfetop;FromTanker</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://dictionary.reference.com/browse/tanker</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumption</IRI>
+        <IRI>&wfetop;HumanConsumption</IRI>
         <Literal datatypeIRI="&rdfs;Literal">EU Directive 98/83/EC defines the water that is intended for human consumption without defining the concept ‘HumanConsumption’. Oxford dictionary, however, defines it as “the activity of eating, drinking, or ingesting of something and performed by human being”. European encyclopedia of law mentions that there are a number of EU legislations  describing food product for human consumption where the term ‘Water’ is used as a food.
 
 In India, Section 2(1) (f) of the Prevention of Food Adulteration Act, 1954 Provides that an article of food shall be deemed to be adulterated if the article consists wholly or in part of any filthy, putrid, disgusting, rotten, decomposed or diseased animal or vegetable substance or is insect-infested or is otherwise unfit for human consumption.
@@ -866,346 +869,346 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumption</IRI>
+        <IRI>&wfetop;HumanConsumption</IRI>
         <Literal datatypeIRI="&rdfs;Literal">HumanConsumption</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumption</IRI>
+        <IRI>&wfetop;HumanConsumption</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumption</IRI>
+        <IRI>&wfetop;HumanConsumption</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://india.lawi.asia/state-delhi-administration-v-puran-mal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumptionActivity</IRI>
+        <IRI>&wfetop;HumanConsumptionActivity</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 2 (1) of EU Directive 98/83/EC defines it as any activity performed for and/or in relation with human consumption. Concept types of this activity are also given in same legislation such as cooking, domestic purpose, drinking, and/or food preparation.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumptionActivity</IRI>
+        <IRI>&wfetop;HumanConsumptionActivity</IRI>
         <Literal datatypeIRI="&rdfs;Literal">HumanConsumptionActivity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#HumanConsumptionActivity</IRI>
+        <IRI>&wfetop;HumanConsumptionActivity</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#InBottle</IRI>
+        <IRI>&wfetop;InBottle</IRI>
         <Literal datatypeIRI="&rdfs;Literal">In according to the Article 2 (1) of EU Directive 98/83/EC, one of the legitimate ways to distribute water is in bottle, which is generic type of the class ‘DistributionOfWater’. Nevertheless, legislation did not define the meaning of bottle. The Wikipedia defines the bottled water  as – “drinking water (e.g., well water, distilled water, mineral water, or spring water) packaged in plastic or glass water bottles. Bottled water may be carbonated or not. Sizes range from small single serving bottles to large carboys for water coolers”. The entity ‘InBottle’ is disjoint with other type of subclasses of ‘DistributionOfWater’ such as ‘FromDistributionNetwork’, ‘FromTanker’, and ‘InContainer’.
 
 seeAlso - https://en.wikipedia.org/wiki/Bottled_water</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#InBottle</IRI>
+        <IRI>&wfetop;InBottle</IRI>
         <Literal datatypeIRI="&rdfs;Literal">InBottle</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#InBottle</IRI>
+        <IRI>&wfetop;InBottle</IRI>
         <Literal datatypeIRI="&xsd;anyURI">https://en.wikipedia.org/wiki/Bottled_water</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#InContainer</IRI>
+        <IRI>&wfetop;InContainer</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 2 (1) of EU Directive 98/83/EC says that water can be distributed in container too. The dictionary defines a container  is – “Container is a type of medium for dis-tributing water. Generally is such object used for or capable of holding, esp for transport or storage, such as a carton, box, etc”. This entity is also disjoint with ‘FromDistribtuionNetwork’, ‘FromTanker’, and ‘InBottle’.
 
 seeAlso - http://dictionary.reference.com/browse/container</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#InContainer</IRI>
+        <IRI>&wfetop;InContainer</IRI>
         <Literal datatypeIRI="&rdfs;Literal">InContainer</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#InContainer</IRI>
+        <IRI>&wfetop;InContainer</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://dictionary.reference.com/browse/container</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ManufactureOfFoodProduction</IRI>
+        <IRI>&wfetop;ManufactureOfFoodProduction</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 2 (1) of EU Directive 98/83/EC implicitly mentions that ‘ManufactureOfFoodProduction’ is a type of food production activity where water, which is intended for human consumption, is used. In addition, Regulation (EC) No 178/2002   also recognized that manufacturing of the food production is involved with such type of activities that generate food production activity and business.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ManufactureOfFoodProduction</IRI>
+        <IRI>&wfetop;ManufactureOfFoodProduction</IRI>
         <Literal datatypeIRI="&rdfs;Literal">ManufactureOfFoodProduction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ManufactureOfFoodProduction</IRI>
+        <IRI>&wfetop;ManufactureOfFoodProduction</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ManufactureOfFoodProduction</IRI>
+        <IRI>&wfetop;ManufactureOfFoodProduction</IRI>
         <Literal datatypeIRI="&xsd;anyURI">https://en.wikipedia.org/wiki/Food_manufacture</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#MarketingOfFoodProduction</IRI>
+        <IRI>&wfetop;MarketingOfFoodProduction</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Regulation (EC) No 1331/2008  explicitly mentions about various marketing activities involved with food production. Lars Perner  provided a general definition of ‘MarketingOfFoodProduction’ is that it is a kind of food production activity involved with general marketing approaches and techniques. Furthermore, Article 2 (1) of EU Directive 98/83/EC also says that marketing of food production is consisted with such activities where water might be used, hence water quality must be ensured par law.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447874109805&amp;uri=CELEX:32008R1331</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#MarketingOfFoodProduction</IRI>
+        <IRI>&wfetop;MarketingOfFoodProduction</IRI>
         <Literal datatypeIRI="&rdfs;Literal">MarketingOfFoodProduction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#MarketingOfFoodProduction</IRI>
+        <IRI>&wfetop;MarketingOfFoodProduction</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://www.consumerpsychologist.com/food_marketing.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#MarketingOfFoodProduction</IRI>
+        <IRI>&wfetop;MarketingOfFoodProduction</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://www.consumerpsychologist.com/intro_Introduction.html and http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447874109805&amp;uri=CELEX:32008R1331</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PreservationOfFoodProduction</IRI>
+        <IRI>&wfetop;PreservationOfFoodProduction</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Food preservation,as a kind of food production activity, delas with preparing food so that it can be stored for future use.
 
 seeAlso - http://encyclopedia2.thefreedictionary.com/food+preservation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PreservationOfFoodProduction</IRI>
+        <IRI>&wfetop;PreservationOfFoodProduction</IRI>
         <Literal datatypeIRI="&rdfs;Literal">PreservationOfFoodProduction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#PreservationOfFoodProduction</IRI>
+        <IRI>&wfetop;PreservationOfFoodProduction</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://encyclopedia2.thefreedictionary.com/food+preservation</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ProcessingOfFoodProduction</IRI>
+        <IRI>&wfetop;ProcessingOfFoodProduction</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Wikipedia defines it as a food production activity which deals with preserving and/or preparing food in such a way so that food can be stored for the future use. In according to the Article 2 (1) of EU Directive 98/83/EC, preservation of food production is a type of food production activity where water is used.
 
 seeAlso - https://en.wikipedia.org/wiki/Food_processing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ProcessingOfFoodProduction</IRI>
+        <IRI>&wfetop;ProcessingOfFoodProduction</IRI>
         <Literal datatypeIRI="&rdfs;Literal">ProcessingOfFoodProduction</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ProcessingOfFoodProduction</IRI>
+        <IRI>&wfetop;ProcessingOfFoodProduction</IRI>
         <Literal datatypeIRI="&xsd;anyURI">https://en.wikipedia.org/wiki/Food_processing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#QualityOfWater</IRI>
+        <IRI>&wfetop;QualityOfWater</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Water quality refers to the chemical, physical, biological, and radiological characteristics of water. It is a measure of the condition of water relative to the requirements of one or more biotic species and or to any human need or purpose. It is most frequently used by reference to a set of standards against which compliance can be assessed.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#QualityOfWater</IRI>
+        <IRI>&wfetop;QualityOfWater</IRI>
         <Literal datatypeIRI="&rdfs;Literal">QualityOfWater</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#QualityOfWater</IRI>
+        <IRI>&wfetop;QualityOfWater</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WasteWater</IRI>
+        <IRI>&wfetop;WasteWater</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 2 (1) of EU Directive 98/83/EC implicitly mentioned that ‘WasteWater ’ is a type of ‘Water’ but not the ‘WaterIntendedForHumanConsumption’.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447874961421&amp;uri=CELEX:32006L0044</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WasteWater</IRI>
+        <IRI>&wfetop;WasteWater</IRI>
         <Literal datatypeIRI="&rdfs;Literal">WasteWater</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WasteWater</IRI>
+        <IRI>&wfetop;WasteWater</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WasteWater</IRI>
+        <IRI>&wfetop;WasteWater</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447874930831&amp;uri=CELEX:32008L0098</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WasteWater</IRI>
+        <IRI>&wfetop;WasteWater</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447874961421&amp;uri=CELEX:32006L0044</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Water</IRI>
+        <IRI>&wfetop;Water</IRI>
         <Literal datatypeIRI="&rdfs;Literal">In according to Article 2 (1) of EU Directive 98/83/EC, ‘Water’ is a type of ‘Substance’ and Article 2 of EU Regulation 178/2002/EC, in addition, says that water can also be considered as food. Directive 2000/60/EC  also considered ‘Water’ as ‘Substance’.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447874867720&amp;uri=CELEX:32000L0060</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Water</IRI>
+        <IRI>&wfetop;Water</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Water</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Water</IRI>
+        <IRI>&wfetop;Water</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Water</IRI>
+        <IRI>&wfetop;Water</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447874867720&amp;uri=CELEX:32000L0060</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterCompliance</IRI>
+        <IRI>&wfetop;WaterAfterCompliance</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 2 of EU Directive 98/83/EC implicitly defines that ‘WaterAfterCompliance ’ is a kind of ‘WaterIntendedForHumanConsumption’.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447874417133&amp;uri=CELEX:32006L0007</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterCompliance</IRI>
+        <IRI>&wfetop;WaterAfterCompliance</IRI>
         <Literal datatypeIRI="&rdfs;Literal">WaterAfterCompliance</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterCompliance</IRI>
+        <IRI>&wfetop;WaterAfterCompliance</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterCompliance</IRI>
+        <IRI>&wfetop;WaterAfterCompliance</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447874417133&amp;uri=CELEX:32006L0007</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterTreatment</IRI>
+        <IRI>&wfetop;WaterAfterTreatment</IRI>
         <Literal datatypeIRI="&rdfs;Literal">&apos;Water after treatment&apos; is a kind of &apos;water after compliance&apos;.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterTreatment</IRI>
+        <IRI>&wfetop;WaterAfterTreatment</IRI>
         <Literal datatypeIRI="&rdfs;Literal">WaterAfterTreatment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterAfterTreatment</IRI>
+        <IRI>&wfetop;WaterAfterTreatment</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterBeforeTreatment</IRI>
+        <IRI>&wfetop;WaterBeforeTreatment</IRI>
         <Literal datatypeIRI="&rdfs;Literal">In according to the EU Directive 98/83/EC, this term is disjoint with ‘WaterAfterTreatment’ as this carry an opposite meaning of ‘WaterAfterTreatment’, which is not ‘WaterIntendedForHumanConsumption’ but equivalent to the ‘WasteWater’.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447875025408&amp;uri=CELEX:32000L0060</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterBeforeTreatment</IRI>
+        <IRI>&wfetop;WaterBeforeTreatment</IRI>
         <Literal datatypeIRI="&rdfs;Literal">WaterBeforeTreatment</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterBeforeTreatment</IRI>
+        <IRI>&wfetop;WaterBeforeTreatment</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterBeforeTreatment</IRI>
+        <IRI>&wfetop;WaterBeforeTreatment</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447875025408&amp;uri=CELEX:32000L0060</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterInItsOriginalState</IRI>
+        <IRI>&wfetop;WaterInItsOriginalState</IRI>
         <Literal datatypeIRI="&rdfs;Literal">&apos;Water in its original state&apos; is a type of &apos;water after compliance&apos;.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterInItsOriginalState</IRI>
+        <IRI>&wfetop;WaterInItsOriginalState</IRI>
         <Literal datatypeIRI="&rdfs;Literal">WaterInItsOriginalState</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterInItsOriginalState</IRI>
+        <IRI>&wfetop;WaterInItsOriginalState</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption</IRI>
+        <IRI>&wfetop;WaterIntendedForHumanConsumption</IRI>
         <Literal datatypeIRI="&rdfs;Literal">This is only sub-class of the top-class ‘ConstitutiveRule’ in EUDefintionOfWaterIntendedForHumanConsumption ontology.  Because in according to Article 2 (1) of EU Directive 98/83/EC the ‘Wa-terIntendedForHumanConsumption’ has generated a number of activities those are logically dependent on the other legal rules mentioned in the same and/or other legis-lations or both. For example in order to ensure implication of the term “WaterIntendedForHumanConsumption”, a number of activities have to be performed such as – (a) its quality must be checked by the competent national authority in according to the parameters set by the respective EU Directives, (b) in order to make “WasteWater”, which is defined in Article 3 of Directive 2008/98/EC , human consumable, it must be treated and qualified as ‘WaterIntendedForHumanConsumption’ which is defined in another EU Directive, (c) it must be used in any food products that is for human consumption. These all must-do activities are also logically depended on the legal rules such as EU Directives or Regulations.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption</IRI>
+        <IRI>&wfetop;WaterIntendedForHumanConsumption</IRI>
         <Literal datatypeIRI="&rdfs;Literal">WaterIntendedForHumanConsumption</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterIntendedForHumanConsumption</IRI>
+        <IRI>&wfetop;WaterIntendedForHumanConsumption</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstance</IRI>
+        <IRI>&wfetop;WaterSubstance</IRI>
         <Literal datatypeIRI="&rdfs;Literal">&apos;Water substance&apos; is a type of water with many usages. For example, it itself can be used as a food, as well as it can be used as a raw material in the food production.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstance</IRI>
+        <IRI>&wfetop;WaterSubstance</IRI>
         <Literal datatypeIRI="&rdfs;Literal">WaterSubstance</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstance</IRI>
+        <IRI>&wfetop;WaterSubstance</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstanceInFood</IRI>
+        <IRI>&wfetop;WaterSubstanceInFood</IRI>
         <Literal datatypeIRI="&rdfs;Literal">&apos;Water substances in food&apos; is also a kind of &apos;water intended for human consumption&apos; as well as it is a kind of &apos;water substance&apos; too.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstanceInFood</IRI>
+        <IRI>&wfetop;WaterSubstanceInFood</IRI>
         <Literal datatypeIRI="&rdfs;Literal">WaterSubstanceInFood</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WaterSubstanceInFood</IRI>
+        <IRI>&wfetop;WaterSubstanceInFood</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WholesomenessOfFoodstuff</IRI>
+        <IRI>&wfetop;WholesomenessOfFoodstuff</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Article 4 of EU Directive 98/83/EC describes &quot;wholesomeness of food stuff&quot; as a quality. The general obligation regarding &apos;wholesomeness of foodstuff&apos; (where water itself considered as food) is given below - 
 
 &quot; Without prejudice to their obligations under other Community provisions, Member States shall take the measures necessary to ensure that water intended for human consumption is wholesome and clean. For the purposes of the minimum requirements of this Directive, water intended for human consumption shall be wholesome and clean if it:
@@ -1219,161 +1222,161 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WholesomenessOfFoodstuff</IRI>
+        <IRI>&wfetop;WholesomenessOfFoodstuff</IRI>
         <Literal datatypeIRI="&rdfs;Literal">WholesomenessOfFoodstuff</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#WholesomenessOfFoodstuff</IRI>
+        <IRI>&wfetop;WholesomenessOfFoodstuff</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447872975948&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#consumes</IRI>
+        <IRI>&wfetop;consumes</IRI>
         <Literal datatypeIRI="&rdfs;Literal">This is an object-property extracted from Article 2(1) of EU Directive 98/83/EC with functional and asymmetric characteristics. By nature it is implicit in the legislative text. Because the Article says about ‘WaterIntendedForHumanConsumption’, which has been used as a sub-class of the term ‘ConstitutiveRule’ and this needs to be linked with the term ‘Human’. That could be done in many different ways. For example, using object property ‘intendedFor’ in order to establish relationship between the terms ‘Water’ and ‘HumanConsumption’. But because of ‘WaterIn-tendedForHumanConsumption’ is used as a single term in this ontology, object-property ‘consumes’ is used for linking it with the term ‘Human’. That gives an ad-vantage of using term ‘WaterIntendedForHumanConsumption’ simultaneously as also mother-class of the following terms – ‘WaterAfterCompliance’, ‘WaterSubstanceInFood’ and ‘FoodProductWhereWaterIsUsed’. However, the term ‘WaterIntendedForHumanConsumption’ is not a sub-class of the term ‘Water’, because the ‘Water’ is a sub-class of the term ‘Substance’ whereas the term ‘WaterIntendedForHumanConsumption’ is considered as a ‘ConstitutiveRule’.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#consumes</IRI>
+        <IRI>&wfetop;consumes</IRI>
         <Literal datatypeIRI="&rdfs;Literal">consumes</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#consumes</IRI>
+        <IRI>&wfetop;consumes</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isConsumedBy</IRI>
+        <IRI>&wfetop;isConsumedBy</IRI>
         <Literal datatypeIRI="&rdfs;Literal">This functional object-property is used to connect the domain term ‘FoodProduct’ with its range term ‘Human’, and extracted from the Article 2(1) of EU Directive 98/83/EC. Like object-property ‘consumes’, this is also implicit in the legislative texts. It expresses the statement – ‘FoodProduct’ ‘isConsumedBy’ ‘Human’, which is a very essential and necessary object-property when this ontology will be merged with ‘EUDefinitionOfFood’ ontology. Because Article 2 of EU Regulation 178/2002/EC defines that the term ‘Feed ’ is not equivalent to the term ‘Food’, as food is consumed by human and feed is consumed by animal.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isConsumedBy</IRI>
+        <IRI>&wfetop;isConsumedBy</IRI>
         <Literal datatypeIRI="&rdfs;Literal">isConsumedBy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isConsumedBy</IRI>
+        <IRI>&wfetop;isConsumedBy</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isCoordinatedBy</IRI>
+        <IRI>&wfetop;isCoordinatedBy</IRI>
         <Literal datatypeIRI="&rdfs;Literal">This is explicitly mentioned in the legislative texts of Article 2(1) of EU Directive 98/83/EC. It has total 7 uses in this ontology. It is functional and asymmetric when it is used between its domain term ‘WaterIn-tendedForHumanConsumption’ and its range term ‘CompetentNa-tionalAuthoritiesInWaterDomains’. It is also used in the formation and execution of some restriction, described in later section of this chapter. It has two sub object-properties – ‘isSuppliedFrom’ and ‘isUsedIn’. Because both of these properties also coordinated by competent national authorities in water domains. It has two sub object-properties – ‘isSuppliedFrom’ and ‘isUsedIn’. Because both of these properties also coordinated by competent national authorities in water domains. These two sub object-properties also have taken from the Article 2(1) of EU Directive 98/83/EC and their parent object-property is ‘isCoordinatedBy’. The object property ‘isSuppliedFrom’ linked the terms ‘WaterIn-tendedForHumanConsumption’ and ‘DistributionOfWater’, and other object property ‘isUsedIn’ established semantic relationships between the terms ‘WaterIntendedForHumanConsumption’, ‘FoodProductionActivity’ and ‘FoodProduct’ as their domains and ranges respectively with functional and asymmetric characteristics.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isCoordinatedBy</IRI>
+        <IRI>&wfetop;isCoordinatedBy</IRI>
         <Literal datatypeIRI="&rdfs;Literal">isCoordinatedBy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isCoordinatedBy</IRI>
+        <IRI>&wfetop;isCoordinatedBy</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isIntendedFor</IRI>
+        <IRI>&wfetop;isIntendedFor</IRI>
         <Literal datatypeIRI="&rdfs;Literal">This object property is also extracted from Article 2(1) of EU Directive 98/83/EC and established the relationship between its domain term ‘WaterIn-tendedForHumanComsumption’ and its range term ‘HumanConsumptionActivity’. As ‘WaterIntendedForHumanComsumption’ is a ‘ConstitutiveRule’, it requires to generate some activities logically dependent on some legal rules. Under this consideration, the object property ‘isIntendedFor’ shows the connectivity of ‘ConstitutiveRule’ with some activities such as ‘HumanConsumptionActivity’.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isIntendedFor</IRI>
+        <IRI>&wfetop;isIntendedFor</IRI>
         <Literal datatypeIRI="&rdfs;Literal">isIntendedFor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isIntendedFor</IRI>
+        <IRI>&wfetop;isIntendedFor</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isSuppliedFrom</IRI>
+        <IRI>&wfetop;isSuppliedFrom</IRI>
         <Literal datatypeIRI="&rdfs;Literal">isSuppliedFrom</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isUsedIn</IRI>
+        <IRI>&wfetop;isUsedIn</IRI>
         <Literal datatypeIRI="&rdfs;Literal">isUsedIn</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallBeUsedFor</IRI>
+        <IRI>&wfetop;shallBeUsedFor</IRI>
         <Literal datatypeIRI="&rdfs;Literal">shallBeUsedFor and shallNotBeUsedFor - These object-properties are implicitly mentioned in the Article 2(1) of EU Directive 98/83/EC. The object-property ‘shallBeUsedFor’ connect the domain term ‘WaterIntendedForHumanConsumption’ and range term ‘FoodProductionActivity’ with functional and asymmetric characteristics, which has similar usages like the object property ‘isUsedIn’.  However, there is fundamental difference between the usages of ‘shallBeUsedFor’ and ‘isUsedIn’. Because the former one is used as an implication of legal rules as the verb ‘shall’ is used in order to express its legal connectivity and does not have any parent property. But the later one has a parental relationship with the object-property ‘isCoordinatedBy’. However, the inverse object-property of it is ‘shallNotBeUsedFor’, which has an important implication in this ontology. Because it expresses relationships among the domain term ‘WasteWater’ and two range terms – ‘FoodProductionActivity’ and ‘ComsumptionActivity’ with functional and asymmetric characteristics. Because EU Directive 98/83/EC implicitly expresses that waste water shall not be used in any type of food production and consumption activities such as food preparation, drinking and/or cooking etc.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallBeUsedFor</IRI>
+        <IRI>&wfetop;shallBeUsedFor</IRI>
         <Literal datatypeIRI="&rdfs;Literal">shallBeUsedFor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallBeUsedFor</IRI>
+        <IRI>&wfetop;shallBeUsedFor</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallHave</IRI>
+        <IRI>&wfetop;shallHave</IRI>
         <Literal datatypeIRI="&rdfs;Literal">‘shallHave’ and ‘shallNotHave’ - Even though they seem inverses of each other, but in this ontology they are used as dissimilar object-properties with their own domains and ranges. Because the object-property ‘shallHave’ links between the domain term ‘WaterIntendedForHumanConsumption’ and its range term ‘QualityOfWater’. Whereas the object-property ‘shallNotHave’ connects the domain term ‘WaterIntendedForHumanConsumption’ and its range term ‘WasteWater’. It means even though their domain terms are similar with functional and asymmetric characteristics but they both are targeted to different range terms. Therefore, they are not inverses of each other by their characteristics.  However, these object-properties are implicit in the legislative texts of Article 2(1) of EU Directive 98/83/EC.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallHave</IRI>
+        <IRI>&wfetop;shallHave</IRI>
         <Literal datatypeIRI="&rdfs;Literal">shallHave</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallHave</IRI>
+        <IRI>&wfetop;shallHave</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotAffect</IRI>
+        <IRI>&wfetop;shallNotAffect</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Even though this object-property seems it is an inverse object-property of ‘shallAffect’, but it is not. Because Article 2(1) of EU Directive 98/83/EC says the quality of the water shall not affect the wholesomeness of foodstuffs. Hence, the object property ‘shallNotAffect’ connects the domain term ‘QualityOfWater’ and ‘WholesomenessOfFoodstuff’ with functional and asymmetric characteristics.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotAffect</IRI>
+        <IRI>&wfetop;shallNotAffect</IRI>
         <Literal datatypeIRI="&rdfs;Literal">shallNotAffect</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotAffect</IRI>
+        <IRI>&wfetop;shallNotAffect</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotBeUsedFor</IRI>
+        <IRI>&wfetop;shallNotBeUsedFor</IRI>
         <Literal datatypeIRI="&rdfs;Literal">shallNotBeUsedFor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotBeUsedFor</IRI>
+        <IRI>&wfetop;shallNotBeUsedFor</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotHave</IRI>
+        <IRI>&wfetop;shallNotHave</IRI>
         <Literal datatypeIRI="&rdfs;Literal">shallNotHave</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#shallNotHave</IRI>
+        <IRI>&wfetop;shallNotHave</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
 </Ontology>

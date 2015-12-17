@@ -1,13 +1,11 @@
 <?xml version="1.0"?>
 
-
 <!DOCTYPE Ontology [
     <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
     <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
     <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
     <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
 ]>
-
 
 <Ontology xmlns="http://www.w3.org/2002/07/owl#"
      xml:base="https://github.com/mizanur3/WEFNexus/blob/master/WEFNexusTopClasses"
@@ -22,6 +20,7 @@
     <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
     <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
     <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+     <Prefix name="wfetop" IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#"/>
     <Annotation>
         <AnnotationProperty IRI="http://purl.org/dc/terms/creator"/>
         <Literal datatypeIRI="&rdfs;Literal">Mizanur Rahman</Literal>
@@ -29,25 +28,15 @@
     <Annotation>
         <AnnotationProperty abbreviatedIRI="dc:description"/>
         <Literal datatypeIRI="&rdfs;Literal">In 1996, the “Rome Declaration on World Food Security and World Food Summit Plan of Action” by FAO declared the access to adequate food is a human right where water for human consumption is considered as food too. Following that declaration, since the beginning of 21st century, policy debate on food vs. fuel has raised public demonstration throughout the world, particularly in Brazil, US and Europe due to the dilemma regarding farmland use changes by rising biofuel production which reinforce negatively the food supply. That worldwide concern regarding Water-Energy-Food nexus has led controversy within the existing international and regional legal systems such as policy harmonization debates between EU and her member states regarding water, food and energy domains even though food as a sub-domain of common agricultural policy was predominately a common concern at the EU level since its origin. Concurrently, in 2010, UN Resolution 64/292 explicitly recognized human right to clean drinking water and German Federal Government initiated, for the first time as such, an on-line resource platform for Water-Energy-Food Security nexus funded by EU and in partnership with World Economic Forum, WEF and IFPRI. Subsequently Bonn Conference 2011 on ‘The water Energy Food Security Nexus – Solutions for the Green Economy’ recognized the nexus perspective and provided the guiding principles for the nexus which drawn outstanding policy discourse in the UN Conference on Sustainable Development held in Rio 2012. Consecutively, in 2012, US National Intelligence Council published their report on ‘Global Trends 2030: Alternative Worlds’, where the nexus is declared as the fourth out of five most emerging global trends. Since then, subsequently, many governments like US, Germany, Brazil etc. as well as regional and international organizations like EU, UNWater and OECD have started policy discourse on how to recognize nexus and manage nexus resources using innovation and technology while there is no legal definition of such nexus. Very recently, on 25 September 2015, UN Resolution 70/1 on ‘Transforming Our World: the 2030 Agenda for Sustainable Development’ declared 17 sustainable development goals where goal 2, 6, and 7 deals with food, water and energy security respectively. In addition, paragraph 16 of the said Resolution explicitly specified the need to bridge digital divide and to develop knowledge society using ICT as a means. This utterance of the said UN Resolution is coherent with the EU Decision 456/2005/EC which clearly emphasised to make digital content in Europe more accessible, usable and exploitable. However, in the case of nexus, following major problems are not in favour of implementing mentioned UN Resolution and EU Decision - 
- 
 -	First of all the nexus domains are isolated and managed by segregated institutional settlement. For example, European Food Safely Authority is established by EU Regulation 178/2002 in order to only deal with common food issues in EU level, but not with water or energy issues. Therefore digital content of such authority is not shared with digital content of other counter parts like water or energy related institutions, vice versa. 
-
 -	Secondly, there are a number of legal information databases related with nexus domains such as FAO-Lex, ECO-Lex, Eur-Lex, WISH, Food in open data, and legislative.gov.uk but these data-bases are not inter-connected as well as their information is not inter-operable and semantically searchable.   
-
 -	Thirdly, there is a number of water and food related ontologies such as AGROVOC. SESAME-S, CUAHSI, SSN, SWEET, Towntology and hydrology, but they do not represent legal definition neither of water nor food nor ontological connection among nexus domains.
-
 These mentioned problems in nexus domains create knowledge gaps in the nexus. For example, there is a lack of nexus detection mechanisms, lack of cross-compliance check among rules that affects and reinforces nexus domains and some of those rules are mutually exclusive in the nexus context. In order to minimize these problems and knowledge gaps in nexus, this legal ontology for nexus is build, which is in line with the EU Council’s conclusions inviting the introduction of the European Legislation Identifier (ELI) (2012/C 325/02). Considering the above contexts, the legal ontology for nexus is intended to provide following benefits – 
-
 a)	It provides a legal definitional understanding for nexus that is machine processable and a formal specification of a shared understanding for nexus based on legal concepts those are laid down in the EU regulations.     
-
 b)	It can be used as a basis to promote interchange and enhance interoperability between legal information systems related with nexus domains. 
-
 c)	It can be reused by the Member States of EU for their own needs. That might decrease the total cost of developing nexus related legal information system. 
-
 d)	It can be used to support case-based comparisons and testing different hypothesis of nexus. 
-
 e)	In addition, the methodology of it can be applied to model legal ontology for other domains as well as jurisdictions.
-
 The legal ontology for nexus is a merged ontology with following ontologies - WEFNexusTopClasses ontolgy, EUDefWater Ontology, EUDefBiofuels Ontology and EUDefFood Ontology. The WEFTopClasses Ontology is imported and reused in following ontologies - EUDefWater Ontology, EUDefBiofuels Ontology and EUDefFood Ontology.</Literal>
     </Annotation>
     <Annotation>
@@ -93,70 +82,70 @@ Please, for more, see at http://www.last-jd.eu/</Literal>
         <Literal datatypeIRI="&rdfs;Literal">This ontology is distributed under a Creative Commons Attribution License - http://creativecommons.org/licenses/by/3.0</Literal>
     </Annotation>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Activity"/>
+        <Class IRI="&wfetop;Activity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Animal"/>
+        <Class IRI="&wfetop;Animal"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Authority"/>
+        <Class IRI="&wfetop;Authority"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ConstitutiveRule"/>
+        <Class IRI="&wfetop;ConstitutiveRule"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ConsumptionActivity"/>
+        <Class IRI="&wfetop;ConsumptionActivity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Human"/>
+        <Class IRI="&wfetop;Human"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LivingOrganism"/>
+        <Class IRI="&wfetop;LivingOrganism"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Market"/>
+        <Class IRI="&wfetop;Market"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Material"/>
+        <Class IRI="&wfetop;Material"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Plant"/>
+        <Class IRI="&wfetop;Plant"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Product"/>
+        <Class IRI="&wfetop;Product"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ProductionActivity"/>
+        <Class IRI="&wfetop;ProductionActivity"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Quality"/>
+        <Class IRI="&wfetop;Quality"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Resource"/>
+        <Class IRI="&wfetop;Resource"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Source"/>
+        <Class IRI="&wfetop;Source"/>
     </Declaration>
     <Declaration>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Substance"/>
+        <Class IRI="&wfetop;Substance"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isCheckedBy"/>
+        <ObjectProperty IRI="&wfetop;isCheckedBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isMaintainedBy"/>
+        <ObjectProperty IRI="&wfetop;isMaintainedBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isPerformedBy"/>
+        <ObjectProperty IRI="&wfetop;isPerformedBy"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isUsedFor"/>
+        <ObjectProperty IRI="&wfetop;isUsedFor"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#maintains"/>
+        <ObjectProperty IRI="&wfetop;maintains"/>
     </Declaration>
     <Declaration>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#mustMaintain"/>
+        <ObjectProperty IRI="&wfetop;mustMaintain"/>
     </Declaration>
     <Declaration>
         <AnnotationProperty IRI="http://purl.org/dc/terms/contributor"/>
@@ -187,181 +176,181 @@ Please, for more, see at http://www.last-jd.eu/</Literal>
             <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
             <Literal xml:lang="en" datatypeIRI="&rdf;PlainLiteral">The object property ‘isPerformedBy’ is used to establish the functional relationships among these three top classes. The domain of ‘isPerformedBy’ is ‘ConstitutiveRule’, and ranges are ‘Human’ and ‘Authority’. And another object property ‘isMaintainBy’ of which domain is ‘ConstitutiveRule’ and range is ‘Authority’.</Literal>
         </Annotation>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Activity"/>
+        <Class IRI="&wfetop;Activity"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isPerformedBy"/>
-            <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Human"/>
+            <ObjectProperty IRI="&wfetop;isPerformedBy"/>
+            <Class IRI="&wfetop;Human"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Animal"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LivingOrganism"/>
+        <Class IRI="&wfetop;Animal"/>
+        <Class IRI="&wfetop;LivingOrganism"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Authority"/>
+        <Class IRI="&wfetop;Authority"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isMaintainedBy"/>
-            <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ConstitutiveRule"/>
+            <ObjectProperty IRI="&wfetop;isMaintainedBy"/>
+            <Class IRI="&wfetop;ConstitutiveRule"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Authority"/>
+        <Class IRI="&wfetop;Authority"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#maintains"/>
+            <ObjectProperty IRI="&wfetop;maintains"/>
             <ObjectUnionOf>
-                <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Market"/>
-                <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Resource"/>
-                <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Source"/>
+                <Class IRI="&wfetop;Market"/>
+                <Class IRI="&wfetop;Resource"/>
+                <Class IRI="&wfetop;Source"/>
             </ObjectUnionOf>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ConsumptionActivity"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Activity"/>
+        <Class IRI="&wfetop;ConsumptionActivity"/>
+        <Class IRI="&wfetop;Activity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Human"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LivingOrganism"/>
+        <Class IRI="&wfetop;Human"/>
+        <Class IRI="&wfetop;LivingOrganism"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Material"/>
+        <Class IRI="&wfetop;Material"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isCheckedBy"/>
-            <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Authority"/>
+            <ObjectProperty IRI="&wfetop;isCheckedBy"/>
+            <Class IRI="&wfetop;Authority"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Plant"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LivingOrganism"/>
+        <Class IRI="&wfetop;Plant"/>
+        <Class IRI="&wfetop;LivingOrganism"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ProductionActivity"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Activity"/>
+        <Class IRI="&wfetop;ProductionActivity"/>
+        <Class IRI="&wfetop;Activity"/>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Quality"/>
+        <Class IRI="&wfetop;Quality"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isCheckedBy"/>
-            <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Authority"/>
+            <ObjectProperty IRI="&wfetop;isCheckedBy"/>
+            <Class IRI="&wfetop;Authority"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <SubClassOf>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Substance"/>
+        <Class IRI="&wfetop;Substance"/>
         <ObjectSomeValuesFrom>
-            <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isUsedFor"/>
-            <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Product"/>
+            <ObjectProperty IRI="&wfetop;isUsedFor"/>
+            <Class IRI="&wfetop;Product"/>
         </ObjectSomeValuesFrom>
     </SubClassOf>
     <DisjointClasses>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Animal"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Human"/>
+        <Class IRI="&wfetop;Animal"/>
+        <Class IRI="&wfetop;Human"/>
     </DisjointClasses>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isMaintainedBy"/>
+        <ObjectProperty IRI="&wfetop;isMaintainedBy"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#maintains"/>
+        <ObjectProperty IRI="&wfetop;maintains"/>
     </FunctionalObjectProperty>
     <FunctionalObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#mustMaintain"/>
+        <ObjectProperty IRI="&wfetop;mustMaintain"/>
     </FunctionalObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#maintains"/>
+        <ObjectProperty IRI="&wfetop;maintains"/>
     </AsymmetricObjectProperty>
     <AsymmetricObjectProperty>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#mustMaintain"/>
+        <ObjectProperty IRI="&wfetop;mustMaintain"/>
     </AsymmetricObjectProperty>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isMaintainedBy"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Authority"/>
+        <ObjectProperty IRI="&wfetop;isMaintainedBy"/>
+        <Class IRI="&wfetop;Authority"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#maintains"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Authority"/>
+        <ObjectProperty IRI="&wfetop;maintains"/>
+        <Class IRI="&wfetop;Authority"/>
     </ObjectPropertyDomain>
     <ObjectPropertyDomain>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#mustMaintain"/>
+        <ObjectProperty IRI="&wfetop;mustMaintain"/>
         <ObjectUnionOf>
-            <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Product"/>
-            <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ProductionActivity"/>
+            <Class IRI="&wfetop;Product"/>
+            <Class IRI="&wfetop;ProductionActivity"/>
         </ObjectUnionOf>
     </ObjectPropertyDomain>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isMaintainedBy"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ConstitutiveRule"/>
+        <ObjectProperty IRI="&wfetop;isMaintainedBy"/>
+        <Class IRI="&wfetop;ConstitutiveRule"/>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#maintains"/>
+        <ObjectProperty IRI="&wfetop;maintains"/>
         <ObjectUnionOf>
-            <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Market"/>
-            <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Resource"/>
-            <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Source"/>
+            <Class IRI="&wfetop;Market"/>
+            <Class IRI="&wfetop;Resource"/>
+            <Class IRI="&wfetop;Source"/>
         </ObjectUnionOf>
     </ObjectPropertyRange>
     <ObjectPropertyRange>
-        <ObjectProperty IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#mustMaintain"/>
-        <Class IRI="https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Quality"/>
+        <ObjectProperty IRI="&wfetop;mustMaintain"/>
+        <Class IRI="&wfetop;Quality"/>
     </ObjectPropertyRange>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isCheckedBy</IRI>
+        <IRI>&wfetop;isCheckedBy</IRI>
         <Literal datatypeIRI="&rdfs;Literal">This object-property shows the answer of who checks what? More appropriately, it expresses agent-action  relationships. For example, competent authority checks wholesomeness of the foodstuff or quality of the water intended for human consumption.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isCheckedBy</IRI>
+        <IRI>&wfetop;isCheckedBy</IRI>
         <Literal datatypeIRI="&rdfs;Literal">isCheckedBy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isCheckedBy</IRI>
+        <IRI>&wfetop;isCheckedBy</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isMaintainedBy</IRI>
+        <IRI>&wfetop;isMaintainedBy</IRI>
         <Literal datatypeIRI="&rdfs;Literal">This object-property gives the answer of what is maintained by whom? For example, Article 2 of EU Directive 98/83/EC says that the competent national authority maintains that quality check of the water intended for human consumption and also the wholesomeness of the foodstuffs whether affected by the water-substance taking into it.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isMaintainedBy</IRI>
+        <IRI>&wfetop;isMaintainedBy</IRI>
         <Literal datatypeIRI="&rdfs;Literal">isMaintainedBy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isPerformedBy</IRI>
+        <IRI>&wfetop;isPerformedBy</IRI>
         <Literal datatypeIRI="&rdfs;Literal">This object-property helps to model answer of the question like who performs what? More precisely, the relationships among top-classes such ‘Activity’, ‘ConstitutiveRule’, ‘Human’, and ‘Authority’ can be established easily with this property. For example, it is easy to ontologically model this statement – both human and authority performs the activity generated by constitutive rules.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isPerformedBy</IRI>
+        <IRI>&wfetop;isPerformedBy</IRI>
         <Literal datatypeIRI="&rdfs;Literal">isPerformedBy</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isUsedFor</IRI>
+        <IRI>&wfetop;isUsedFor</IRI>
         <Literal datatypeIRI="&rdfs;Literal">This object-property helps to engineer the answer of what is used for what to be done? For example, Article 2 of EU Regulation 178/2002/EC clearly mentions that only biomass is used for making biofuels. From the top-class ontological perspective, here the term ‘Biomass’ is a material because of it has been used to produce biofuel, and the term ‘Biofuel’ is itself a type of ‘Resource’ as well as a type of ‘Source’ and/or ‘Product’, because of it depends on the purpose for which biofuel is used.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#isUsedFor</IRI>
+        <IRI>&wfetop;isUsedFor</IRI>
         <Literal datatypeIRI="&rdfs;Literal">isUsedFor</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#maintains</IRI>
+        <IRI>&wfetop;maintains</IRI>
         <Literal datatypeIRI="&rdfs;Literal">This object-property models the answer of ‘who/what maintains what?’ For example EU Regulation 178/2002/EC establishes the Food Security Authority who is responsible for maintaining food market. Hence, this property helps to model the relationship between the top classes – ‘Authority’ and ‘market’.</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#maintains</IRI>
+        <IRI>&wfetop;maintains</IRI>
         <Literal datatypeIRI="&rdfs;Literal">maintains</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Activity</IRI>
+        <IRI>&wfetop;Activity</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Oxford dictionary defines the term ‘Activity’ as “a thing that a person or group does or has done”. In biology, the term ‘Activity’ is used to express a process, such as digestion, that any living organism performs in order to be alive. However in the case of legal definition of ‘Activity’, there is no such EU regulation directly defines it. The ‘Activity’ as a legal term with a particular meaning has been used in the Regulation (EC) No 716/2007 , where a list of ‘Activity’ is given for foreign administrative works and formal reporting purposes. Furthermore, a lot of terms  have been using in EU water, energy and food domains which can be a type of activity, but no EU legislation from these domains gave a proper legal definition of it. Therefore, the meaning of oxford dictionary of it used  and it is selected as a Top Class for the legal ontology for WEF Nexus in order to categorize all types activities mentioned in the EU water, biofuels and Food definitions. The term ‘Activity’ has two subclasses – ProductionActivity and ConsumptionActivity.
 
 Article 3 of REGULATION (EC) No 716/2007 syas Member States shall submit to the Commission (Eurostat) data on foreign affiliates in respect of the characteristics, the economic activities and the geographical breakdown as referred to in Annexes I, II and III. However, Annexe III, provides a list of activities that Member States must follow in order to produce their corrosponding reporting.
@@ -373,22 +362,22 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447867612165&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Activity</IRI>
+        <IRI>&wfetop;Activity</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Activity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Activity</IRI>
+        <IRI>&wfetop;Activity</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://dictionary.reference.com/browse/activity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Activity</IRI>
+        <IRI>&wfetop;Activity</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447867612165&amp;uri=CELEX:32007R0716</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Animal</IRI>
+        <IRI>&wfetop;Animal</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Biology dictionary defines animal as a living organism possess minimum following characteristics – being eukaryotic and multicellular, being heterotrophic and digesting food in internal chamber, lacking cell wall, being generally motile, embryos passes through a blastula stage and possessing specialized sensory organs. In addition, Article 3(5) of Regulation (EC) No 1069/2009  defines animal as any invertebrate or vertebrate animal. Furthermore, Article 2 of EU Directive 2003/30/EC mentions that one of the sources of biomass is animal substance by which biofuel are produced. This is why the term ‘Animal’ is used as one of the Top-classes.
 
 The definition is in line with Article 3(5), of Regulation (EC) No 1069/2009 of the European Parliament and of the Council of 21 October 2009 laying down health rules as regards animal by-products and derived products not intended for human consumption and repealing Regulation (EC) No 1774/2002, defines animal as any invertebrate or vertebrate animal.
@@ -397,22 +386,22 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447868867629&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Animal</IRI>
+        <IRI>&wfetop;Animal</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Animal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Animal</IRI>
+        <IRI>&wfetop;Animal</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447868867629&amp;uri=CELEX:32009R1069</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Animal</IRI>
+        <IRI>&wfetop;Animal</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://www.biology-online.org/dictionary/Animal</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Authority</IRI>
+        <IRI>&wfetop;Authority</IRI>
         <Literal datatypeIRI="&rdfs;Literal">There is no generic legal definition of the term ‘Authority’. However, there are many EU Regulations of specific domains by which the institutions are formed; each of such EU Regulations provides a legal definition of the term ‘Authority’ in order to cover that particular context and domains . However, the Business dictionary  defines authority as “institutionalized and legal power inherent in a particular job, function, or position that is meant to enable its holder to successfully carry out his or her responsibilities”.  This definition of the authority is also in compatible with following two other definitions – 
 
 Definition 1 - Power that is legally and formally institutionalized in order to perform certain legal activities, generally domain based. 
@@ -426,27 +415,27 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447868235265&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Authority</IRI>
+        <IRI>&wfetop;Authority</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Authority</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Authority</IRI>
+        <IRI>&wfetop;Authority</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://dictionary.reference.com/browse/authority</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Authority</IRI>
+        <IRI>&wfetop;Authority</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447868235265&amp;uri=CELEX:32006R1925</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Authority</IRI>
+        <IRI>&wfetop;Authority</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://www.businessdictionary.com/definition/authority.html and http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447868035065&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ConstitutiveRule</IRI>
+        <IRI>&wfetop;ConstitutiveRule</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Prof. John Searle in his works  mentioned that constitutive rule is to generate activity the origin of which is logically dependent on the rules. These rules can be generally two types – imperative as well as non-imperative or count-as. The most famous example of such rules is chess rules or rules of football. However, there is no such EU legislation that defines specifically the term ‘constitutive rules’. But Article 9(6) of Directive 2014/65/EU  clearly indicated the important of application of constitutive rules in business administration without defining the constitutive rules. It provides the legal reasoning ground for legalizing the activities inherited from the legal rules.
  
 In the case of EU definitions of water, bio-fuels and food, there exist a number of constitutive rules that generate activities the origin of which are entirely dependent on the rules mentioned in the definition. For example, Article 2 of EU Directive 98/83/EC carries a constitutive rule is that water used in the food preparation must maintain the quality of the water intended for human consumption without compromising the wholesomeness of the foodstuffs. Because this rule simply generates a number of activities such as – (a) cleaning the water if it is waste water, (b) implication of water quality mentioned in the Annexes of EU Directive 98/83/EC, (c) investigating the wholesomeness of the foodstuffs when water is applied to it in according to the laws of the competent authority, and (d) etc. In order to perform these activities, it is also required to comply with other legal rules coming from EU energy and food Regulations. 
@@ -462,66 +451,66 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447868598250&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ConstitutiveRule</IRI>
+        <IRI>&wfetop;ConstitutiveRule</IRI>
         <Literal datatypeIRI="&rdfs;Literal">ConstitutiveRule</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ConstitutiveRule</IRI>
+        <IRI>&wfetop;ConstitutiveRule</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://ebooks.cambridge.org/chapter.jsf?bid=CBO9780511613999&amp;cid=CBO9780511613999A006</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ConstitutiveRule</IRI>
+        <IRI>&wfetop;ConstitutiveRule</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447868598250&amp;uri=CELEX:32014L0065</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ConstitutiveRule</IRI>
+        <IRI>&wfetop;ConstitutiveRule</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://plato.stanford.edu/entries/law-interpretivist/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ConsumptionActivity</IRI>
+        <IRI>&wfetop;ConsumptionActivity</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Angus Deaton (1992) in his book “understanding consumption”  mentioned that ‘ConsumptionActivity’ is a kind of activity that helps us to consume goods and services. It also refers activity involved with final usages of goods and services in order to satisfy human wants and needs. Even though, like ‘ProductionActivity’, there is no legal definition of it, there are many terms exist in Article 2 of EU Directive 98/83/EC and Regulation 178/2002/EC that can be directed under the TopClass term ‘ConsumptionActivity’. Few examples of such terms are – ‘Feed’, ‘Cooking’, ‘FoodPreparation’, ‘Drinking’ etc.
 
 seeAlso - http://agriinfo.in/?page=topic&amp;superid=9&amp;topicid=186</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ConsumptionActivity</IRI>
+        <IRI>&wfetop;ConsumptionActivity</IRI>
         <Literal datatypeIRI="&rdfs;Literal">ConsumptionActivity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ConsumptionActivity</IRI>
+        <IRI>&wfetop;ConsumptionActivity</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://agriinfo.in/?page=topic&amp;superid=9&amp;topicid=186</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Human</IRI>
+        <IRI>&wfetop;Human</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Mcllinioff’s dictionary  defines – “a Human being, living organism, is without regard to sex, legitimacy, or competence and also addresses as &apos;Natural person&apos; in law. This person is the central figure of law, as elsewhere, characterized by personal attributes of mind, intention, feelings, weaknesses, morality common to human beings, with rights and duties under the law”. In addition, Biology dictionary mentioned that human being also can be addressed as social animal that has capability of living life with inherent values and ethics. Inappropriately, there is no EU legislation carries the legal definition of the term ‘human being’. However, on one hand, Article 2 of EU Directive 98/83/EC defines the water that is particularly intended for human consumption, but the Directive did not define the meaning of ‘human being’. On the other hand, like EU water definition, Article 2 of EU Regulation 178/2002/EC defines food designed for human consumption but does not define the term ‘human’. As the term ‘human being’ is common at EU water and food definitions, it is used as a top class.
 
 seeAlso - http://www.biology-online.org/dictionary/Human</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Human</IRI>
+        <IRI>&wfetop;Human</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Human</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Human</IRI>
+        <IRI>&wfetop;Human</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://www.biology-online.org/dictionary/Human</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Human</IRI>
+        <IRI>&wfetop;Human</IRI>
         <Literal datatypeIRI="&xsd;anyURI">https://books.google.com.ua/books/about/Mellinkoff_s_Dictionary_of_American_Lega.html?hl=uk&amp;id=NZqPQAAACAAJ</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LivingOrganism</IRI>
+        <IRI>&wfetop;LivingOrganism</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Even though there is no specific EU legislation that defines the term ‘living organism’, Article 2(1) of Directive 2001/18/EC  defines organism as “any biological entity capable of replication or of transferring genetic material”. However, the Biology dictionary  defines living organism as “any organism or a living form that possesses or shows the characteristics of life or being alive. They provided 9 characteristics of living organism that includes 7 abilities – such as having organized structure, requires energy to survive, ability to reproduce/ grow/ metabolize/ respond to stimuli/ adapt to the environment/ move/ and respire. In the case of EU definitions of water, biofules and food, there mentions different types of living organisms without even defining the meaning of the term ‘living organism’. For example, the term ‘human’, ‘plant’, ‘animal’ is used in EU water, food and bio-fuel definitions respectively. As a result, it has been used as another top class with following three sub-classes.
 
 This is in line with Article 2(1)of Directive 2001/18/EC of the European Parliament and of the Council of 12 March 2001 on the deliberate release into the environment of genetically modified organisms and repealing Council Directive 90/220/EEC defines organism as any biological entity capable of replication or of transferring genetic material.
@@ -530,22 +519,22 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447868776209&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LivingOrganism</IRI>
+        <IRI>&wfetop;LivingOrganism</IRI>
         <Literal datatypeIRI="&rdfs;Literal">LivingOrganism</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LivingOrganism</IRI>
+        <IRI>&wfetop;LivingOrganism</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447868776209&amp;uri=CELEX:32001L0018</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#LivingOrganism</IRI>
+        <IRI>&wfetop;LivingOrganism</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://www.biology-online.org/dictionary/Living_thing</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Market</IRI>
+        <IRI>&wfetop;Market</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Even though there is no legal definition of the term ‘market’ exists in the EU Regulations, there are many EU legislations related with the term ‘internal market’, ‘single market’, and/or ‘relevant market’. EU Regulations related with single market  defines market in which free movement of goods, services, capital and persons is ensured and in which EU citizens can do business legally and are free to work, study and live. In the case of EU food and biofuels definition, there are many terms exist those have property relationship with the term ‘Market’. For example, Article 2 of EU Regulation 178/2002/EC mentions that if the meat is produced for the market, then it is considered as food, otherwise not. That also has direct and indirect property relationship with other terms exist in EU water and biofuel definitions. Hence, the term ‘Market’ is used as a top class.
 
 Additionally, in EU competition law, a relevant market is a market in which a particular product or service is sold. It is the intersection of a relevant product market and a relevant geographic market. The European Commission defines a relevant market and its product and geographic components as follows:
@@ -560,27 +549,27 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447869441576&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Market</IRI>
+        <IRI>&wfetop;Market</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Market</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Market</IRI>
+        <IRI>&wfetop;Market</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447869441576&amp;uri=CELEX:32014R0596</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Market</IRI>
+        <IRI>&wfetop;Market</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://europa.eu/legislation_summaries/competition/firms/l26073_en.htm</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Market</IRI>
+        <IRI>&wfetop;Market</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://europa.eu/legislation_summaries/internal_market/index_en.htm</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Material</IRI>
+        <IRI>&wfetop;Material</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Free dictionary defines the material as “a substance of which a thing is made or composed”. In EU Regulation , it also says that material is the matter from which something is made out of. There are many terms in the EU water, biofuels and food definitions can be considered as a type of Material. For example, Article 2 of EU Regulation 178/2002/EC mentions the term ‘WaterSubstance’ which is used to produce ‘FoodProduct’. Another example is Article 2 of EU Directive 2003/30/EC mentions the terms such as ‘Biomass’, ‘BiodegradableFractionOfProduct’, ‘IndustrialWaste’,  by which biofuel is produced. Therefore, these terms are subclasses of the top-class ‘Material’.
 
 This definition is in line with Regulation (EC) No 1935/2004 of the European Parliament and of the Council of 27 October 2004 on materials and articles intended to come into contact with food and repealing Directives 80/590/EEC and 89/109/EEC.
@@ -589,44 +578,44 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447869571816&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Material</IRI>
+        <IRI>&wfetop;Material</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Material</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Material</IRI>
+        <IRI>&wfetop;Material</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447869571816&amp;uri=CELEX:32004R1935</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Material</IRI>
+        <IRI>&wfetop;Material</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://www.thefreedictionary.com/material</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Plant</IRI>
+        <IRI>&wfetop;Plant</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Free dictionary  defines plant as a living organism that typically synthesizes its food from inorganic substances, without sense organs, nervous system and power of locomotion, but possesses cellulose cell walls. In line with this definition, Article 3(5) of Regulation (EC) No 1107/2009  also defines plants as “live plants and live parts of plants, including fresh fruit, vegetables and seeds”. The term ‘Plant’ has been commonly used in EU biofuel and food definitions, hence it is used as a top-class.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447869269344&amp;uri=CELEX:32009R1107</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Plant</IRI>
+        <IRI>&wfetop;Plant</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Plant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Plant</IRI>
+        <IRI>&wfetop;Plant</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447869269344&amp;uri=CELEX:32009R1107</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Plant</IRI>
+        <IRI>&wfetop;Plant</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://www.thefreedictionary.com/plant</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Product</IRI>
+        <IRI>&wfetop;Product</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Business dictionary  defines product as commercially distributed goods that is an output of production processes and/or manufacturing and passes through a distribution channel in order to make it consumed and/or used. In EU Regulation , a product is when it is made using traditional materials and characterized by a traditional composition or method. However, in the case of EU water, food and biofuels definitions, there are many terms can be headed under the top class ‘’Product’. For example, Article 2 of EU Regulation 178/2002/EC has following terms ‘Cosmetic’, ‘MedicinalProduct’, ‘TabaccoProducts’, ‘ChewingGum’, ‘Drink’, ‘FoodSubstance’ etc and Article 2 of EU Directive 2003/30/EC has following terms ‘SyntheticBiofuel’. These all terms can be types of top-class ‘Product’.
 
 A product may only be registered if:
@@ -647,71 +636,71 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447869747256&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Product</IRI>
+        <IRI>&wfetop;Product</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Product</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Product</IRI>
+        <IRI>&wfetop;Product</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447869747256&amp;uri=CELEX:32006R0509</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Product</IRI>
+        <IRI>&wfetop;Product</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://europa.eu/legislation_summaries/food_safety/general_provisions/l66043_en.htm</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Product</IRI>
+        <IRI>&wfetop;Product</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://www.businessdictionary.com/definition/product.html</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ProductionActivity</IRI>
+        <IRI>&wfetop;ProductionActivity</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Oxford dictionary defines ‘ProductionActivity’ as an activity of making something from raw materials. It also referred as a series of activities, mainly considered as process, of being something assembled or manufactured. However, there are many terms exist in EU food definition which can be addressed as a type of ProductionActivity. For example, Article 2 of EU Regulation 178/2002/EC mentions about preparation, preservation, processing and marketing of the food production. All of these terms can be directed under the term ‘ProductionActivity’.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447867882013&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ProductionActivity</IRI>
+        <IRI>&wfetop;ProductionActivity</IRI>
         <Literal datatypeIRI="&rdfs;Literal">ProductionActivity</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ProductionActivity</IRI>
+        <IRI>&wfetop;ProductionActivity</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://dictionary.reference.com/browse/production</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#ProductionActivity</IRI>
+        <IRI>&wfetop;ProductionActivity</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447867882013&amp;uri=CELEX:32002R0178</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Quality</IRI>
+        <IRI>&wfetop;Quality</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Even though there is no such EU legislation provide a generic definition of quality, EU Regulation 2023/2006  defines the term ‘good manufacturing practice (GMP)’ as “those aspects of quality assurance which ensure that materials and articles are consistently produced and controlled to ensure conformity with the rules applicable to them and with the quality standards appropriate to their intended use by not endangering human health or causing an unacceptable change in the composition of the food or causing a deterioration in the organoleptic characteristics thereof”. In addition, EU Directive 98/83/EC also provides quality standard of water intended for human consumption, without giving a definition of what is quality, and EU Regulation 178/2002/EC also indicates the quality of food as wholesomeness of the foodstuff, but does not clarify the meaning of wholesomeness. In the case of EU biofuels definition, EU Directive 2003/30/EC says that biofuels must be made out of biomass, not from other materials and/or substance, which indicates ‘biomass’ as a quality material sources for producing biofuels. It means there are many terms in EU water, biofuels and food definitions those concern with the top-class ‘quality’.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447869916525&amp;uri=CELEX:32006R2023</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Quality</IRI>
+        <IRI>&wfetop;Quality</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Quality</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Quality</IRI>
+        <IRI>&wfetop;Quality</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447869916525&amp;uri=CELEX:32006R2023</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Quality</IRI>
+        <IRI>&wfetop;Quality</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://europa.eu/legislation_summaries/environment/water_protection_management/co0018_en.htm</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Resource</IRI>
+        <IRI>&wfetop;Resource</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Source and resource are two different words with totally different meanings. Source is a place or a thing that provides us what we are looking for. We go to school to obtain knowledge and to a college to obtain a degree. In this sense, these are sources of knowledge and degree for us. A well is a source of fresh underground water for us while the sun is a source of constant energy. There is another word resource that means something valuable for us and something that we consume to serve a function. This article attempts to differentiate between source and resource, to make readers use the right word in the right context.
 
 Sources vs Resources
@@ -732,17 +721,17 @@ seeAlso - https://books.google.it/books/about/Living_in_the_Environment_Principl
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Resource</IRI>
+        <IRI>&wfetop;Resource</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Resource</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Resource</IRI>
+        <IRI>&wfetop;Resource</IRI>
         <Literal datatypeIRI="&xsd;anyURI">https://books.google.it/books/about/Living_in_the_Environment_Principles_Con.html?id=5gC9Dy1YWfkC&amp;redir_esc=y</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Source</IRI>
+        <IRI>&wfetop;Source</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Oxford dictionary defines source as “a place, person, or thing from which something comes or can be obtained”. In addition, even though EU Directive 2003/30/EC does not define what is source, it mentions the term ‘source’ in its Article 2(1)(c) saying that “other renewable fuels’ means renewable fuels, other than biofuels, which originate from renewable energy sources as defined in Directive 2001/77/EC (2) and used for transport purposes”. Also Article 2 of EU Directive 98/83/EC implicitly mentions that original water also can be a source of water intended for human consumption. Furthermore, Article 2 of EU Regulation 178/2002/EC likewise mentions that ‘water’ can be a source of food. As all of EU water, biofuels and food definitions have some terms and property relationships with the term ‘source’, it has been used as a top-class.
 
 The entity &apos;&apos;Resource&apos;&apos; and &apos;&apos;Source&apos;&apos; has two independent meaning. Please see the annotations of &apos;&apos;Resource&apos;&apos;.
@@ -751,17 +740,17 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447867518822&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Source</IRI>
+        <IRI>&wfetop;Source</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Source</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Source</IRI>
+        <IRI>&wfetop;Source</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447867518822&amp;uri=CELEX:32003L0030</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Substance</IRI>
+        <IRI>&wfetop;Substance</IRI>
         <Literal datatypeIRI="&rdfs;Literal">In US cases , the term ‘substance’ has been defined as essential part of a thing as distinguished from form. In EU, Article 3(2) of Regulation (EU) No 649/2012  says that substance’ means any chemical element and its compounds as defined in point 1 of Article 3 of Regulation (EC) No 1907/2006 .  In the case of EU water, biofuels and food definitions, there are a lot of terms can be categorized as type of substance such as ‘AnimalSubstance’, ‘Carbon’, ‘Contaminant’, ‘PsychotropicSubstance’, ‘TobaccoSubstance’, ‘Water’, ‘VegetalSubstance’, ‘FoodSubstance’ etc. Therefore, the term ‘Substance’ is used as a top-class.
 
 This definition is in line with Article 3(2) of Regulation (EU) No 649/2012 says that substance’ means any chemical element and its compounds as defined in point 1 of Article 3 of Regulation (EC) No 1907/2006.
@@ -770,34 +759,34 @@ seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447870202835&amp;u
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Substance</IRI>
+        <IRI>&wfetop;Substance</IRI>
         <Literal datatypeIRI="&rdfs;Literal">Substance</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Substance</IRI>
+        <IRI>&wfetop;Substance</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447870202835&amp;uri=CELEX:32012R0649</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#Substance</IRI>
+        <IRI>&wfetop;Substance</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://thelawdictionary.org/substance/</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#mustMaintain</IRI>
+        <IRI>&wfetop;mustMaintain</IRI>
         <Literal datatypeIRI="&rdfs;Literal">This object-property is used as a special one due to its associated verb ‘must’. Because it gives a sense of implication of obligation over the classes as well as sub-classes. For example, EU Directive 98/83/EC says that water intended for human consumption must maintain its quality which is mentioned in the Annexes of the same legislation.
 
 seeAlso - http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#mustMaintain</IRI>
+        <IRI>&wfetop;mustMaintain</IRI>
         <Literal datatypeIRI="&rdfs;Literal">mustMaintain</Literal>
     </AnnotationAssertion>
     <AnnotationAssertion>
         <AnnotationProperty abbreviatedIRI="rdfs:seeAlso"/>
-        <IRI>https://github.com/mizanur3/WEFNexus/blob/master/WFENexusTopClasses#mustMaintain</IRI>
+        <IRI>&wfetop;mustMaintain</IRI>
         <Literal datatypeIRI="&xsd;anyURI">http://eur-lex.europa.eu/legal-content/EN/TXT/?qid=1447923271117&amp;uri=CELEX:31998L0083</Literal>
     </AnnotationAssertion>
 </Ontology>
